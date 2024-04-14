@@ -1,7 +1,4 @@
-
-Welcome to the hafthastad assignment, an open-source template for enterprise projects! It's loaded with features that'll help you build a high-performance, maintainable, and enjoyable app. We've done all the heavy lifting for you, so sit back, relax, and get ready to conquer the world with your incredible app! 🌍
-
-
+# Welcome aboard to the Senior Front-End Developer Interview Assignment with hafthastad! 🌍
 
 ## Table of Contents
 
@@ -15,10 +12,12 @@ Welcome to the hafthastad assignment, an open-source template for enterprise pro
     - [Smoke Testing](#smoke-testing)
   - [🎨 Styling and Design System](#-styling-and-design-system)
     - [CVA - A New Approach to Variants](#cva---a-new-approach-to-variants)
-    - [Zustand](#zustand)
   - [💻 Environment Variables handling](#-environment-variables-handling)
   
 ## 🎯 Getting Started
+
+# before installation First you should change your node version to  ">=18.17.0".
+
 
 
 To get started with this app, follow these steps:
@@ -27,11 +26,9 @@ To get started with this app, follow these steps:
 1. Fork & clone repository:
 
 ```bash
-## Don't forget to ⭐ star and fork it first :)
 git clone https://github.com/<your_username)/hafthashtad-assignment.git
 ```
 
-### before installation First you should change your node version to  ">=18.17.0".
 
 2. Install the dependencies:
 
@@ -55,10 +52,9 @@ pre-commit install -t commit-msg
 ```
 
 ## 🚀 Deployment
+<!-- TODO: provide vercel link -->
+ # onClick to deploy button to see the final version off the app on vercel   [![Vercel](https://vercel.com/button)](https://google.com)
 
-Easily deploy your Next.js app with [Vercel](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=github&utm_campaign=next-enterprise) by clicking the button below:
-
-[![Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/Blazity/next-enterprise)
 
 ## 📃 Scripts Overview
 
@@ -148,9 +144,7 @@ In this boilerplate, we use Storybook's out-of-the-box support for smoke testing
 
 ## 🎨 Styling and Design System
 
-This boilerplate uses Tailwind CSS for styling and CVA for creating a powerful, easy-to-use design system. If you want to learn more about the setup, check out this fantastic video by Vercel:
-
-[![Styling and Design System](https://img.youtube.com/vi/T-Zv73yZ_QI/0.jpg)](https://www.youtube.com/watch?v=T-Zv73yZ_QI&ab_channel=Vercel)
+This app uses Tailwind CSS for styling and CVA for creating a powerful, easy-to-use design system. 
 
 ### CVA - A New Approach to Variants
 
@@ -158,13 +152,6 @@ While CSS-in-TS libraries such as [Stitches](https://stitches.dev/) and [Vanilla
 
 Creating variants using traditional CSS can be a tedious task, requiring you to manually match classes to props and add types. CVA is here to take that pain away, allowing you to focus on the enjoyable aspects of UI development. By providing an easy and type-safe way to create variants, CVA simplifies the process and helps you create powerful design systems without compromising on the flexibility and control of CSS.
 
-## 💾 State Management
-
-While this boilerplate doesn't include a specific state management library, we believe it's essential for you to choose the one that best suits your project's needs. Here are some libraries we recommend for state management:
-
-### Zustand
-
-[Zustand](https://github.com/pmndrs/zustand) is a small, fast, and scalable state management library. It's designed to be simple and intuitive, making it a great choice for small to medium-sized projects. It's also optimized for bundle size, ensuring minimal impact on your app's performance.
 ## 💻 Environment Variables handling
 
 [T3 Env](https://env.t3.gg/) is a library that provides environmental variables checking at build time, type validation and transforming. It ensures that your application is using the correct environment variables and their values are of the expected type. You’ll never again struggle with runtime errors caused by incorrect environment variable usage.
@@ -195,3 +182,37 @@ If the required environment variables are not set, you'll get an error message:
   ❌ Invalid environment variables: { SECRET_KEY: [ 'Required' ] }
 ```
 
+
+
+
+## Assignment
+# Senior Front-End Developer Interview Assignment
+
+## Objective:
+Creating a React project by NextJS 13 and creating a flight ticket list page according to the submitted design.
+
+## Requirements:
+
+- Create a new React application with Next.js 13 using create-next-app or any preferred setup.
+- Use the front-end UI library of your choice (e.g. Sass, bootstrap) to style the tickets. Use TypeScript, Axios for data fetching.
+- Use [mockbin.io](https://mockbin.io) website to add data JSON file in the body section for creating endpoint API and request them or add JSON-server package.
+  - Create a ticket component and show data like UI.
+  - Clickable detail (مشاھده اطلاعات پرواز) button and show details like UI.
+  - Implement a search bar and can search on airline companies (airline.name)
+
+## Deliverables:
+1. A GitHub repository containing the source code of the React application.
+2. A README file with clear instructions on how to set up and run the application locally.
+
+## Evaluation Criteria:
+- Code quality and organization.
+- Proper use of React components and state management.
+- Properly show 5 tickets in the viewport and don’t use any library like infinity scroll.
+- Effective error handling and loading.
+- Responsive and visually appealing UI design.
+- **PLUS:** Use Next.js 13 app router benefits.
+- **PLUS:** Create tests for components like Jest and test-react-library.
+- **PLUS:** Create a Storybook for components.
+
+## Figma Address:
+[Link to Figma](https://www.figma.com/file/YgezRrUNzzWxnbbUVHHk4n/frontend-developer---interview-assignment?type=design&node-id=0%3A1&mode=design&t=gr1LkiNQ75KRDy1J-1)

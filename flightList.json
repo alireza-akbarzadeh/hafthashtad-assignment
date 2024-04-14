@@ -1,0 +1,3003 @@
+{
+  "flightQueryResult": [
+    {
+      "flightList": [
+        {
+          "price": 18863000,
+          "remainingSeats": 9,
+          "isCharter": false,
+          "airline": {
+            "code": "ZV",
+            "name": "زاگرس",
+          },
+          "flightClass": "ECONOMY",
+          "numberOfStops": 0,
+          "totalStopDuration": 0,
+          "departure": {
+            "date": 1709150400,
+            "dateString": "چهارشنبه 9 اسفند",
+            "dateHourString": "23:30",
+            "terminal": "1",
+            "airport": {
+              "country": {
+                "twoLetterCode": "IR",
+                "code": "IRN",
+                "name": {
+                  "farsi": "ایران",
+                  "english": "Iran"
+                }
+              },
+              "city": {
+                "name": {
+                  "farsi": "تهران",
+                  "english": "Tehran"
+                },
+                "iata": "THR"
+              },
+              "name": {
+                "farsi": "فرودگاه بین‌المللی مهرآباد",
+                "english": "Mehrabad"
+              },
+              "iata": "THR"
+            }
+          },
+          "arrival": {
+            "date": 1709155800,
+            "dateString": "پنج‌شنبه 10 اسفند",
+            "dateHourString": "01:00",
+            "terminal": "",
+            "airport": {
+              "country": {
+                "twoLetterCode": "IR",
+                "code": "IRN",
+                "name": {
+                  "farsi": "ایران",
+                  "english": "Iran"
+                }
+              },
+              "city": {
+                "name": {
+                  "farsi": "مشهد",
+                  "english": "Mashhad"
+                },
+                "iata": "MHD"
+              },
+              "name": {
+                "farsi": "فرودگاه شهید هاشمی‌نژاد",
+                "english": "Mashhad"
+              },
+              "iata": "MHD"
+            }
+          },
+          "flightID": "80ac52f2-5f35-473f-a3d7-b3263378540f",
+          "airplaneModel": "",
+          "promotion": null,
+          "flightNumber": "4057",
+          "fare": {
+            "adult": 18863000,
+            "child": 16048000,
+            "infant": 1495000
+          },
+          "fareClass": "M",
+          "options": [],
+          "priority": 0,
+          "allowedBaggage": [
+            {
+              "code": "BaggageFreeAllowance",
+              "name": {
+                "farsi": "حق چمدان رایگان",
+                "english": ""
+              },
+              "count": 1,
+              "weight": 20,
+              "adultAndChildWeight": 20,
+              "infantWeight": 0
+            }
+          ],
+          "refundPolicy": [
+            {
+              "Text": "از 3 ساعت قبل از پرواز به بعد",
+              "Percent": 60
+            },
+            {
+              "Text": "از 12:00 ظهر 1 روز قبل از پرواز تا 3 ساعت قبل از پرواز\t",
+              "Percent": 50
+            },
+            {
+              "Text": "از 12:00 ظهر 3 روز قبل از پرواز تا 12:00 ظهر 1 روز قبل از پرواز\t",
+              "Percent": 40
+            },
+            {
+              "Text": "از 15 دقیقه بعد از صدور بلیط تا 12:00 ظهر 3 روز قبل از پرواز",
+              "Percent": 30
+            }
+          ],
+          "commission": 0,
+          "agency": ""
+        },
+        {
+          "price": 19964000,
+          "remainingSeats": 9,
+          "isCharter": false,
+          "airline": {
+            "code": "ZV",
+            "name": "زاگرس",
+          },
+          "flightClass": "ECONOMY",
+          "numberOfStops": 0,
+          "totalStopDuration": 0,
+          "departure": {
+            "date": 1709150400,
+            "dateString": "چهارشنبه 9 اسفند",
+            "dateHourString": "23:30",
+            "terminal": "1",
+            "airport": {
+              "country": {
+                "twoLetterCode": "IR",
+                "code": "IRN",
+                "name": {
+                  "farsi": "ایران",
+                  "english": "Iran"
+                }
+              },
+              "city": {
+                "name": {
+                  "farsi": "تهران",
+                  "english": "Tehran"
+                },
+                "iata": "THR"
+              },
+              "name": {
+                "farsi": "فرودگاه بین‌المللی مهرآباد",
+                "english": "Mehrabad"
+              },
+              "iata": "THR"
+            }
+          },
+          "arrival": {
+            "date": 1709155800,
+            "dateString": "پنج‌شنبه 10 اسفند",
+            "dateHourString": "01:00",
+            "terminal": "",
+            "airport": {
+              "country": {
+                "twoLetterCode": "IR",
+                "code": "IRN",
+                "name": {
+                  "farsi": "ایران",
+                  "english": "Iran"
+                }
+              },
+              "city": {
+                "name": {
+                  "farsi": "مشهد",
+                  "english": "Mashhad"
+                },
+                "iata": "MHD"
+              },
+              "name": {
+                "farsi": "فرودگاه شهید هاشمی‌نژاد",
+                "english": "Mashhad"
+              },
+              "iata": "MHD"
+            }
+          },
+          "flightID": "8976e6a4-5b14-4368-8109-5bf98bc14e20",
+          "airplaneModel": "",
+          "promotion": null,
+          "flightNumber": "4057",
+          "fare": {
+            "adult": 19964000,
+            "child": 16985000,
+            "infant": 1495000
+          },
+          "fareClass": "VO",
+          "options": [],
+          "priority": 0,
+          "allowedBaggage": [
+            {
+              "code": "BaggageFreeAllowance",
+              "name": {
+                "farsi": "حق چمدان رایگان",
+                "english": ""
+              },
+              "count": 0,
+              "weight": 20,
+              "adultAndChildWeight": 20,
+              "infantWeight": 0
+            }
+          ],
+          "refundPolicy": [
+            {
+              "Text": "از 3 ساعت قبل از پرواز به بعد",
+              "Percent": 60
+            },
+            {
+              "Text": "از 12:00 ظهر 1 روز قبل از پرواز تا 3 ساعت قبل از پرواز\t",
+              "Percent": 50
+            },
+            {
+              "Text": "از 12:00 ظهر 3 روز قبل از پرواز تا 12:00 ظهر 1 روز قبل از پرواز\t",
+              "Percent": 40
+            },
+            {
+              "Text": "از 15 دقیقه بعد از صدور بلیط تا 12:00 ظهر 3 روز قبل از پرواز",
+              "Percent": 30
+            }
+          ],
+          "commission": 0,
+          "agency": ""
+        },
+        {
+          "price": 20120000,
+          "remainingSeats": 9,
+          "isCharter": false,
+          "airline": {
+            "code": "NV",
+            "name": "کارون",
+          },
+          "flightClass": "ECONOMY",
+          "numberOfStops": 0,
+          "totalStopDuration": 0,
+          "departure": {
+            "date": 1709135100,
+            "dateString": "چهارشنبه 9 اسفند",
+            "dateHourString": "19:15",
+            "terminal": "2",
+            "airport": {
+              "country": {
+                "twoLetterCode": "IR",
+                "code": "IRN",
+                "name": {
+                  "farsi": "ایران",
+                  "english": "Iran"
+                }
+              },
+              "city": {
+                "name": {
+                  "farsi": "تهران",
+                  "english": "Tehran"
+                },
+                "iata": "THR"
+              },
+              "name": {
+                "farsi": "فرودگاه بین‌المللی مهرآباد",
+                "english": "Mehrabad"
+              },
+              "iata": "THR"
+            }
+          },
+          "arrival": {
+            "date": 1709139900,
+            "dateString": "چهارشنبه 9 اسفند",
+            "dateHourString": "20:35",
+            "terminal": "",
+            "airport": {
+              "country": {
+                "twoLetterCode": "IR",
+                "code": "IRN",
+                "name": {
+                  "farsi": "ایران",
+                  "english": "Iran"
+                }
+              },
+              "city": {
+                "name": {
+                  "farsi": "مشهد",
+                  "english": "Mashhad"
+                },
+                "iata": "MHD"
+              },
+              "name": {
+                "farsi": "فرودگاه شهید هاشمی‌نژاد",
+                "english": "Mashhad"
+              },
+              "iata": "MHD"
+            }
+          },
+          "flightID": "accde739-38b3-4b88-868f-65732ab4f337",
+          "airplaneModel": "BOEING 733",
+          "promotion": null,
+          "flightNumber": "2638",
+          "fare": {
+            "adult": 20120000,
+            "child": 15116000,
+            "infant": 2000000
+          },
+          "fareClass": "M",
+          "options": [],
+          "priority": 0,
+          "allowedBaggage": [
+            {
+              "code": "BaggageFreeAllowance",
+              "name": {
+                "farsi": "حق چمدان رایگان",
+                "english": ""
+              },
+              "count": 2,
+              "weight": 20,
+              "adultAndChildWeight": 20,
+              "infantWeight": 0
+            }
+          ],
+          "refundPolicy": [
+            {
+              "Text": "از 3 ساعت قبل از پرواز به بعد",
+              "Percent": 70
+            },
+            {
+              "Text": "از 12:00 ظهر 1 روز قبل از پرواز تا 3 ساعت قبل از پرواز",
+              "Percent": 50
+            },
+            {
+              "Text": "از زمان صدور بلیط تا 12:00 ظهر 1 روز قبل از پرواز",
+              "Percent": 30
+            }
+          ],
+          "commission": 0,
+          "agency": ""
+        },
+        {
+          "price": 20220000,
+          "remainingSeats": 5,
+          "isCharter": true,
+          "airline": {
+            "code": "I3",
+            "name": "آتا",
+          },
+          "flightClass": "ECONOMY",
+          "numberOfStops": 0,
+          "totalStopDuration": 0,
+          "departure": {
+            "date": 1709142000,
+            "dateString": "چهارشنبه 9 اسفند",
+            "dateHourString": "21:10",
+            "terminal": "2",
+            "airport": {
+              "country": {
+                "twoLetterCode": "IR",
+                "code": "IRN",
+                "name": {
+                  "farsi": "ایران",
+                  "english": "Iran"
+                }
+              },
+              "city": {
+                "name": {
+                  "farsi": "تهران",
+                  "english": "Tehran"
+                },
+                "iata": "THR"
+              },
+              "name": {
+                "farsi": "فرودگاه بین‌المللی مهرآباد",
+                "english": "Mehrabad"
+              },
+              "iata": "THR"
+            }
+          },
+          "arrival": {
+            "date": 1709147400,
+            "dateString": "چهارشنبه 9 اسفند",
+            "dateHourString": "22:40",
+            "terminal": "",
+            "airport": {
+              "country": {
+                "twoLetterCode": "IR",
+                "code": "IRN",
+                "name": {
+                  "farsi": "ایران",
+                  "english": "Iran"
+                }
+              },
+              "city": {
+                "name": {
+                  "farsi": "مشهد",
+                  "english": "Mashhad"
+                },
+                "iata": "MHD"
+              },
+              "name": {
+                "farsi": "فرودگاه شهید هاشمی‌نژاد",
+                "english": "Mashhad"
+              },
+              "iata": "MHD"
+            }
+          },
+          "flightID": "a8299c39-e431-470b-aa2e-d1ea64a42a5c",
+          "airplaneModel": "M83",
+          "promotion": null,
+          "flightNumber": "5613",
+          "fare": {
+            "adult": 20220000,
+            "child": 20220000,
+            "infant": 5100000
+          },
+          "fareClass": "Y",
+          "options": [],
+          "priority": 0,
+          "allowedBaggage": [
+            {
+              "code": "Kg",
+              "name": {
+                "farsi": "",
+                "english": "ADT"
+              },
+              "count": 1,
+              "weight": 20,
+              "adultAndChildWeight": 20,
+              "infantWeight": 0
+            },
+            {
+              "code": "Kg",
+              "name": {
+                "farsi": "",
+                "english": "CHD"
+              },
+              "count": 1,
+              "weight": 20,
+              "adultAndChildWeight": 20,
+              "infantWeight": 0
+            },
+            {
+              "code": "Kg",
+              "name": {
+                "farsi": "",
+                "english": "INF"
+              },
+              "count": 1,
+              "weight": 20,
+              "adultAndChildWeight": 20,
+              "infantWeight": 0
+            }
+          ],
+          "refundPolicy": [
+            {
+              "Text": "از زمان صدور تا ساعت 11 ظهر 5 روز قبل از پرواز",
+              "Percent": 70
+            },
+            {
+              "Text": "از ساعت 11 ظهر 5 روز قبل از پرواز تا ساعت 11 ظهر 3 روز قبل از پرواز",
+              "Percent": 80
+            },
+            {
+              "Text": "از ساعت 11 ظهر 3 روز قبل از پرواز تا ساعت 11 ظهر 1 روز قبل از پرواز",
+              "Percent": 90
+            },
+            {
+              "Text": "از ساعت 11 ظهر 1 روز قبل از پرواز و بعد از آن",
+              "Percent": 100
+            }
+          ],
+          "commission": 0,
+          "agency": ""
+        },
+        {
+          "price": 35100000,
+          "remainingSeats": 6,
+          "isCharter": true,
+          "airline": {
+            "code": "IRU",
+            "name": "هواپيمايي چابهار",
+          },
+          "flightClass": "BUSINESS",
+          "numberOfStops": 0,
+          "totalStopDuration": 0,
+          "departure": {
+            "date": 1709138100,
+            "dateString": "چهارشنبه 9 اسفند",
+            "dateHourString": "20:05",
+            "terminal": "",
+            "airport": {
+              "country": {
+                "twoLetterCode": "IR",
+                "code": "IRN",
+                "name": {
+                  "farsi": "ایران",
+                  "english": "Iran"
+                }
+              },
+              "city": {
+                "name": {
+                  "farsi": "تهران",
+                  "english": "Tehran"
+                },
+                "iata": "THR"
+              },
+              "name": {
+                "farsi": "فرودگاه بین‌المللی مهرآباد",
+                "english": "Mehrabad"
+              },
+              "iata": "THR"
+            }
+          },
+          "arrival": {
+            "date": 1709143500,
+            "dateString": "چهارشنبه 9 اسفند",
+            "dateHourString": "21:35",
+            "terminal": "",
+            "airport": {
+              "country": {
+                "twoLetterCode": "IR",
+                "code": "IRN",
+                "name": {
+                  "farsi": "ایران",
+                  "english": "Iran"
+                }
+              },
+              "city": {
+                "name": {
+                  "farsi": "مشهد",
+                  "english": "Mashhad"
+                },
+                "iata": "MHD"
+              },
+              "name": {
+                "farsi": "فرودگاه شهید هاشمی‌نژاد",
+                "english": "Mashhad"
+              },
+              "iata": "MHD"
+            }
+          },
+          "flightID": "7675ba9e-3bc0-4403-bd34-2a1e4c24a744",
+          "airplaneModel": "",
+          "promotion": null,
+          "flightNumber": "8778",
+          "fare": {
+            "adult": 35100000,
+            "child": 35100000,
+            "infant": 7100000
+          },
+          "fareClass": "C",
+          "options": [],
+          "priority": 0,
+          "allowedBaggage": [
+            {
+              "code": "BaggageFreeAllowance",
+              "name": {
+                "farsi": "حق چمدان رایگان",
+                "english": ""
+              },
+              "count": 0,
+              "weight": 20,
+              "adultAndChildWeight": 20,
+              "infantWeight": 0
+            }
+          ],
+          "refundPolicy": [
+            {
+              "Text": "از زمان صدور تا ساعت 11 ظهر 5 روز قبل از پرواز",
+              "Percent": 70
+            },
+            {
+              "Text": "از ساعت 11 ظهر 5 روز قبل از پرواز تا ساعت 11 ظهر 3 روز قبل از پرواز",
+              "Percent": 80
+            },
+            {
+              "Text": "از ساعت 11 ظهر 3 روز قبل از پرواز تا ساعت 11 ظهر 1 روز قبل از پرواز",
+              "Percent": 90
+            },
+            {
+              "Text": "از ساعت 11 ظهر 1 روز قبل از پرواز و بعد از آن",
+              "Percent": 100
+            }
+          ],
+          "commission": 0,
+          "agency": ""
+        },
+        {
+          "price": 35100000,
+          "remainingSeats": 6,
+          "isCharter": true,
+          "airline": {
+            "code": "IRU",
+            "name": "چابهار",
+          },
+          "flightClass": "BUSINESS",
+          "numberOfStops": 0,
+          "totalStopDuration": 0,
+          "departure": {
+            "date": 1709138100,
+            "dateString": "چهارشنبه 9 اسفند",
+            "dateHourString": "20:05",
+            "terminal": "",
+            "airport": {
+              "country": {
+                "twoLetterCode": "IR",
+                "code": "IRN",
+                "name": {
+                  "farsi": "ایران",
+                  "english": "Iran"
+                }
+              },
+              "city": {
+                "name": {
+                  "farsi": "تهران",
+                  "english": "Tehran"
+                },
+                "iata": "THR"
+              },
+              "name": {
+                "farsi": "فرودگاه بین‌المللی مهرآباد",
+                "english": "Mehrabad"
+              },
+              "iata": "THR"
+            }
+          },
+          "arrival": {
+            "date": 1709143500,
+            "dateString": "چهارشنبه 9 اسفند",
+            "dateHourString": "21:35",
+            "terminal": "",
+            "airport": {
+              "country": {
+                "twoLetterCode": "IR",
+                "code": "IRN",
+                "name": {
+                  "farsi": "ایران",
+                  "english": "Iran"
+                }
+              },
+              "city": {
+                "name": {
+                  "farsi": "مشهد",
+                  "english": "Mashhad"
+                },
+                "iata": "MHD"
+              },
+              "name": {
+                "farsi": "فرودگاه شهید هاشمی‌نژاد",
+                "english": "Mashhad"
+              },
+              "iata": "MHD"
+            }
+          },
+          "flightID": "be3f188a-406d-4a7b-b017-a9cc490f14fa",
+          "airplaneModel": "MD",
+          "promotion": null,
+          "flightNumber": "8778",
+          "fare": {
+            "adult": 35100000,
+            "child": 35100000,
+            "infant": 7100000
+          },
+          "fareClass": "CE",
+          "options": [],
+          "priority": 0,
+          "allowedBaggage": [
+            {
+              "code": "Kg",
+              "name": {
+                "farsi": "",
+                "english": "ADT"
+              },
+              "count": 1,
+              "weight": 20,
+              "adultAndChildWeight": 20,
+              "infantWeight": 0
+            },
+            {
+              "code": "Kg",
+              "name": {
+                "farsi": "",
+                "english": "CHD"
+              },
+              "count": 1,
+              "weight": 20,
+              "adultAndChildWeight": 20,
+              "infantWeight": 0
+            },
+            {
+              "code": "Kg",
+              "name": {
+                "farsi": "",
+                "english": "INF"
+              },
+              "count": 1,
+              "weight": 20,
+              "adultAndChildWeight": 20,
+              "infantWeight": 0
+            }
+          ],
+          "refundPolicy": [
+            {
+              "Text": "از زمان صدور تا ساعت 11 ظهر 5 روز قبل از پرواز",
+              "Percent": 70
+            },
+            {
+              "Text": "از ساعت 11 ظهر 5 روز قبل از پرواز تا ساعت 11 ظهر 3 روز قبل از پرواز",
+              "Percent": 80
+            },
+            {
+              "Text": "از ساعت 11 ظهر 3 روز قبل از پرواز تا ساعت 11 ظهر 1 روز قبل از پرواز",
+              "Percent": 90
+            },
+            {
+              "Text": "از ساعت 11 ظهر 1 روز قبل از پرواز و بعد از آن",
+              "Percent": 100
+            }
+          ],
+          "commission": 0,
+          "agency": ""
+        },
+        {
+          "price": 4479000,
+          "remainingSeats": 0,
+          "isCharter": false,
+          "airline": {
+            "code": "EP",
+            "name": "اسمان",
+          },
+          "flightClass": "ECONOMY",
+          "numberOfStops": 0,
+          "totalStopDuration": 0,
+          "departure": {
+            "date": 1709081400,
+            "dateString": "چهارشنبه 9 اسفند",
+            "dateHourString": "04:20",
+            "terminal": "4",
+            "airport": {
+              "country": {
+                "twoLetterCode": "IR",
+                "code": "IRN",
+                "name": {
+                  "farsi": "ایران",
+                  "english": "Iran"
+                }
+              },
+              "city": {
+                "name": {
+                  "farsi": "تهران",
+                  "english": "Tehran"
+                },
+                "iata": "THR"
+              },
+              "name": {
+                "farsi": "فرودگاه بین‌المللی مهرآباد",
+                "english": "Mehrabad"
+              },
+              "iata": "THR"
+            }
+          },
+          "arrival": {
+            "date": 1709086800,
+            "dateString": "چهارشنبه 9 اسفند",
+            "dateHourString": "05:50",
+            "terminal": "",
+            "airport": {
+              "country": {
+                "twoLetterCode": "IR",
+                "code": "IRN",
+                "name": {
+                  "farsi": "ایران",
+                  "english": "Iran"
+                }
+              },
+              "city": {
+                "name": {
+                  "farsi": "مشهد",
+                  "english": "Mashhad"
+                },
+                "iata": "MHD"
+              },
+              "name": {
+                "farsi": "فرودگاه شهید هاشمی‌نژاد",
+                "english": "Mashhad"
+              },
+              "iata": "MHD"
+            }
+          },
+          "flightID": "b5d752cd-974d-4e33-8ac3-bcb4246481e0",
+          "airplaneModel": "",
+          "promotion": null,
+          "flightNumber": "610",
+          "fare": {
+            "adult": 4479000,
+            "child": 0,
+            "infant": 0
+          },
+          "fareClass": "O",
+          "options": [],
+          "priority": 0,
+          "allowedBaggage": [
+            {
+              "code": "BaggageFreeAllowance",
+              "name": {
+                "farsi": "حق چمدان رایگان",
+                "english": ""
+              },
+              "count": 0,
+              "weight": 20,
+              "adultAndChildWeight": 20,
+              "infantWeight": 0
+            }
+          ],
+          "refundPolicy": [
+            {
+              "Text": "از 12 ظهر یک روز قبل از پرواز به بعد ",
+              "Percent": 60
+            },
+            {
+              "Text": "از زمان صدور تا 12 ظهر یک روز قبل از پرواز ",
+              "Percent": 40
+            }
+          ],
+          "commission": 0,
+          "agency": ""
+        },
+        {
+          "price": 4479000,
+          "remainingSeats": 0,
+          "isCharter": false,
+          "airline": {
+            "code": "EP",
+            "name": "اسمان",
+          },
+          "flightClass": "ECONOMY",
+          "numberOfStops": 0,
+          "totalStopDuration": 0,
+          "departure": {
+            "date": 1709099400,
+            "dateString": "چهارشنبه 9 اسفند",
+            "dateHourString": "09:20",
+            "terminal": "4",
+            "airport": {
+              "country": {
+                "twoLetterCode": "IR",
+                "code": "IRN",
+                "name": {
+                  "farsi": "ایران",
+                  "english": "Iran"
+                }
+              },
+              "city": {
+                "name": {
+                  "farsi": "تهران",
+                  "english": "Tehran"
+                },
+                "iata": "THR"
+              },
+              "name": {
+                "farsi": "فرودگاه بین‌المللی مهرآباد",
+                "english": "Mehrabad"
+              },
+              "iata": "THR"
+            }
+          },
+          "arrival": {
+            "date": 1709104800,
+            "dateString": "چهارشنبه 9 اسفند",
+            "dateHourString": "10:50",
+            "terminal": "",
+            "airport": {
+              "country": {
+                "twoLetterCode": "IR",
+                "code": "IRN",
+                "name": {
+                  "farsi": "ایران",
+                  "english": "Iran"
+                }
+              },
+              "city": {
+                "name": {
+                  "farsi": "مشهد",
+                  "english": "Mashhad"
+                },
+                "iata": "MHD"
+              },
+              "name": {
+                "farsi": "فرودگاه شهید هاشمی‌نژاد",
+                "english": "Mashhad"
+              },
+              "iata": "MHD"
+            }
+          },
+          "flightID": "ae536d55-c312-4bb7-885c-f467cd5f0576",
+          "airplaneModel": "",
+          "promotion": null,
+          "flightNumber": "600",
+          "fare": {
+            "adult": 4479000,
+            "child": 0,
+            "infant": 0
+          },
+          "fareClass": "O",
+          "options": [],
+          "priority": 0,
+          "allowedBaggage": [
+            {
+              "code": "BaggageFreeAllowance",
+              "name": {
+                "farsi": "حق چمدان رایگان",
+                "english": ""
+              },
+              "count": 0,
+              "weight": 20,
+              "adultAndChildWeight": 20,
+              "infantWeight": 0
+            }
+          ],
+          "refundPolicy": [
+            {
+              "Text": "از 12 ظهر یک روز قبل از پرواز به بعد ",
+              "Percent": 60
+            },
+            {
+              "Text": "از زمان صدور تا 12 ظهر یک روز قبل از پرواز ",
+              "Percent": 40
+            }
+          ],
+          "commission": 0,
+          "agency": ""
+        },
+        {
+          "price": 10191000,
+          "remainingSeats": 0,
+          "isCharter": false,
+          "airline": {
+            "code": "ZV",
+            "name": "زاگرس",
+          },
+          "flightClass": "ECONOMY",
+          "numberOfStops": 0,
+          "totalStopDuration": 0,
+          "departure": {
+            "date": 1709150400,
+            "dateString": "چهارشنبه 9 اسفند",
+            "dateHourString": "23:30",
+            "terminal": "1",
+            "airport": {
+              "country": {
+                "twoLetterCode": "IR",
+                "code": "IRN",
+                "name": {
+                  "farsi": "ایران",
+                  "english": "Iran"
+                }
+              },
+              "city": {
+                "name": {
+                  "farsi": "تهران",
+                  "english": "Tehran"
+                },
+                "iata": "THR"
+              },
+              "name": {
+                "farsi": "فرودگاه بین‌المللی مهرآباد",
+                "english": "Mehrabad"
+              },
+              "iata": "THR"
+            }
+          },
+          "arrival": {
+            "date": 1709155800,
+            "dateString": "پنج‌شنبه 10 اسفند",
+            "dateHourString": "01:00",
+            "terminal": "",
+            "airport": {
+              "country": {
+                "twoLetterCode": "IR",
+                "code": "IRN",
+                "name": {
+                  "farsi": "ایران",
+                  "english": "Iran"
+                }
+              },
+              "city": {
+                "name": {
+                  "farsi": "مشهد",
+                  "english": "Mashhad"
+                },
+                "iata": "MHD"
+              },
+              "name": {
+                "farsi": "فرودگاه شهید هاشمی‌نژاد",
+                "english": "Mashhad"
+              },
+              "iata": "MHD"
+            }
+          },
+          "flightID": "fda4e8bf-00d1-43b1-9eaf-1e7ebfc15873",
+          "airplaneModel": "",
+          "promotion": null,
+          "flightNumber": "4057",
+          "fare": {
+            "adult": 10191000,
+            "child": 0,
+            "infant": 0
+          },
+          "fareClass": "T",
+          "options": [],
+          "priority": 0,
+          "allowedBaggage": [
+            {
+              "code": "BaggageFreeAllowance",
+              "name": {
+                "farsi": "حق چمدان رایگان",
+                "english": ""
+              },
+              "count": 0,
+              "weight": 20,
+              "adultAndChildWeight": 20,
+              "infantWeight": 0
+            }
+          ],
+          "refundPolicy": [],
+          "commission": 0,
+          "agency": ""
+        },
+        {
+          "price": 13148000,
+          "remainingSeats": 0,
+          "isCharter": false,
+          "airline": {
+            "code": "EP",
+            "name": "اسمان",
+          },
+          "flightClass": "ECONOMY",
+          "numberOfStops": 0,
+          "totalStopDuration": 0,
+          "departure": {
+            "date": 1709081400,
+            "dateString": "چهارشنبه 9 اسفند",
+            "dateHourString": "04:20",
+            "terminal": "4",
+            "airport": {
+              "country": {
+                "twoLetterCode": "IR",
+                "code": "IRN",
+                "name": {
+                  "farsi": "ایران",
+                  "english": "Iran"
+                }
+              },
+              "city": {
+                "name": {
+                  "farsi": "تهران",
+                  "english": "Tehran"
+                },
+                "iata": "THR"
+              },
+              "name": {
+                "farsi": "فرودگاه بین‌المللی مهرآباد",
+                "english": "Mehrabad"
+              },
+              "iata": "THR"
+            }
+          },
+          "arrival": {
+            "date": 1709086800,
+            "dateString": "چهارشنبه 9 اسفند",
+            "dateHourString": "05:50",
+            "terminal": "",
+            "airport": {
+              "country": {
+                "twoLetterCode": "IR",
+                "code": "IRN",
+                "name": {
+                  "farsi": "ایران",
+                  "english": "Iran"
+                }
+              },
+              "city": {
+                "name": {
+                  "farsi": "مشهد",
+                  "english": "Mashhad"
+                },
+                "iata": "MHD"
+              },
+              "name": {
+                "farsi": "فرودگاه شهید هاشمی‌نژاد",
+                "english": "Mashhad"
+              },
+              "iata": "MHD"
+            }
+          },
+          "flightID": "61ce78ec-6eb6-472c-aec5-3b916e528365",
+          "airplaneModel": "",
+          "promotion": null,
+          "flightNumber": "610",
+          "fare": {
+            "adult": 13148000,
+            "child": 0,
+            "infant": 0
+          },
+          "fareClass": "Y",
+          "options": [],
+          "priority": 0,
+          "allowedBaggage": [
+            {
+              "code": "BaggageFreeAllowance",
+              "name": {
+                "farsi": "حق چمدان رایگان",
+                "english": ""
+              },
+              "count": 0,
+              "weight": 25,
+              "adultAndChildWeight": 25,
+              "infantWeight": 0
+            }
+          ],
+          "refundPolicy": [
+            {
+              "Text": "از زمان صدور تا 12 ظهر یک روز قبل از پرواز ",
+              "Percent": 40
+            },
+            {
+              "Text": "از 12 ظهر یک روز قبل از پرواز به بعد ",
+              "Percent": 60
+            }
+          ],
+          "commission": 0,
+          "agency": ""
+        },
+        {
+          "price": 13148000,
+          "remainingSeats": 0,
+          "isCharter": false,
+          "airline": {
+            "code": "EP",
+            "name": "اسمان",
+          },
+          "flightClass": "ECONOMY",
+          "numberOfStops": 0,
+          "totalStopDuration": 0,
+          "departure": {
+            "date": 1709099400,
+            "dateString": "چهارشنبه 9 اسفند",
+            "dateHourString": "09:20",
+            "terminal": "4",
+            "airport": {
+              "country": {
+                "twoLetterCode": "IR",
+                "code": "IRN",
+                "name": {
+                  "farsi": "ایران",
+                  "english": "Iran"
+                }
+              },
+              "city": {
+                "name": {
+                  "farsi": "تهران",
+                  "english": "Tehran"
+                },
+                "iata": "THR"
+              },
+              "name": {
+                "farsi": "فرودگاه بین‌المللی مهرآباد",
+                "english": "Mehrabad"
+              },
+              "iata": "THR"
+            }
+          },
+          "arrival": {
+            "date": 1709104800,
+            "dateString": "چهارشنبه 9 اسفند",
+            "dateHourString": "10:50",
+            "terminal": "",
+            "airport": {
+              "country": {
+                "twoLetterCode": "IR",
+                "code": "IRN",
+                "name": {
+                  "farsi": "ایران",
+                  "english": "Iran"
+                }
+              },
+              "city": {
+                "name": {
+                  "farsi": "مشهد",
+                  "english": "Mashhad"
+                },
+                "iata": "MHD"
+              },
+              "name": {
+                "farsi": "فرودگاه شهید هاشمی‌نژاد",
+                "english": "Mashhad"
+              },
+              "iata": "MHD"
+            }
+          },
+          "flightID": "ac23df89-045b-47df-8638-81aa6ec5bde8",
+          "airplaneModel": "",
+          "promotion": null,
+          "flightNumber": "600",
+          "fare": {
+            "adult": 13148000,
+            "child": 0,
+            "infant": 0
+          },
+          "fareClass": "Y",
+          "options": [],
+          "priority": 0,
+          "allowedBaggage": [
+            {
+              "code": "BaggageFreeAllowance",
+              "name": {
+                "farsi": "حق چمدان رایگان",
+                "english": ""
+              },
+              "count": 0,
+              "weight": 25,
+              "adultAndChildWeight": 25,
+              "infantWeight": 0
+            }
+          ],
+          "refundPolicy": [
+            {
+              "Text": "از 12 ظهر یک روز قبل از پرواز به بعد ",
+              "Percent": 60
+            },
+            {
+              "Text": "از زمان صدور تا 12 ظهر یک روز قبل از پرواز ",
+              "Percent": 40
+            }
+          ],
+          "commission": 0,
+          "agency": ""
+        },
+        {
+          "price": 13148000,
+          "remainingSeats": 0,
+          "isCharter": false,
+          "airline": {
+            "code": "HH",
+            "name": "تابان",
+          },
+          "flightClass": "ECONOMY",
+          "numberOfStops": 0,
+          "totalStopDuration": 0,
+          "departure": {
+            "date": 1709086500,
+            "dateString": "چهارشنبه 9 اسفند",
+            "dateHourString": "05:45",
+            "terminal": "4",
+            "airport": {
+              "country": {
+                "twoLetterCode": "IR",
+                "code": "IRN",
+                "name": {
+                  "farsi": "ایران",
+                  "english": "Iran"
+                }
+              },
+              "city": {
+                "name": {
+                  "farsi": "تهران",
+                  "english": "Tehran"
+                },
+                "iata": "THR"
+              },
+              "name": {
+                "farsi": "فرودگاه بین‌المللی مهرآباد",
+                "english": "Mehrabad"
+              },
+              "iata": "THR"
+            }
+          },
+          "arrival": {
+            "date": 1709091000,
+            "dateString": "چهارشنبه 9 اسفند",
+            "dateHourString": "07:00",
+            "terminal": "",
+            "airport": {
+              "country": {
+                "twoLetterCode": "IR",
+                "code": "IRN",
+                "name": {
+                  "farsi": "ایران",
+                  "english": "Iran"
+                }
+              },
+              "city": {
+                "name": {
+                  "farsi": "مشهد",
+                  "english": "Mashhad"
+                },
+                "iata": "MHD"
+              },
+              "name": {
+                "farsi": "فرودگاه شهید هاشمی‌نژاد",
+                "english": "Mashhad"
+              },
+              "iata": "MHD"
+            }
+          },
+          "flightID": "ab506839-fcdd-4c05-a973-aeae2783f279",
+          "airplaneModel": "",
+          "promotion": null,
+          "flightNumber": "6326",
+          "fare": {
+            "adult": 13148000,
+            "child": 0,
+            "infant": 0
+          },
+          "fareClass": "E",
+          "options": [],
+          "priority": 0,
+          "allowedBaggage": [
+            {
+              "code": "BaggageFreeAllowance",
+              "name": {
+                "farsi": "حق چمدان رایگان",
+                "english": ""
+              },
+              "count": 0,
+              "weight": 20,
+              "adultAndChildWeight": 20,
+              "infantWeight": 0
+            }
+          ],
+          "refundPolicy": [
+            {
+              "Text": "از زمان صدور تا 12 ظهر 3 روز قبل از پرواز ",
+              "Percent": 100
+            },
+            {
+              "Text": "از 12 ظهر 3 روز قبل از پرواز  تا 12 ظهر 1 روز قبل از پرواز",
+              "Percent": 100
+            },
+            {
+              "Text": "از 12 ظهر 1 روز قبل از پرواز تا 3 ساعت قبل از پرواز ",
+              "Percent": 100
+            },
+            {
+              "Text": "از 3 ساعت قبل از پرواز به بعد ",
+              "Percent": 100
+            }
+          ],
+          "commission": 0,
+          "agency": ""
+        },
+        {
+          "price": 13148000,
+          "remainingSeats": 0,
+          "isCharter": false,
+          "airline": {
+            "code": "HH",
+            "name": "تابان",
+          },
+          "flightClass": "ECONOMY",
+          "numberOfStops": 0,
+          "totalStopDuration": 0,
+          "departure": {
+            "date": 1709114400,
+            "dateString": "چهارشنبه 9 اسفند",
+            "dateHourString": "13:30",
+            "terminal": "4",
+            "airport": {
+              "country": {
+                "twoLetterCode": "IR",
+                "code": "IRN",
+                "name": {
+                  "farsi": "ایران",
+                  "english": "Iran"
+                }
+              },
+              "city": {
+                "name": {
+                  "farsi": "تهران",
+                  "english": "Tehran"
+                },
+                "iata": "THR"
+              },
+              "name": {
+                "farsi": "فرودگاه بین‌المللی مهرآباد",
+                "english": "Mehrabad"
+              },
+              "iata": "THR"
+            }
+          },
+          "arrival": {
+            "date": 1709118900,
+            "dateString": "چهارشنبه 9 اسفند",
+            "dateHourString": "14:45",
+            "terminal": "",
+            "airport": {
+              "country": {
+                "twoLetterCode": "IR",
+                "code": "IRN",
+                "name": {
+                  "farsi": "ایران",
+                  "english": "Iran"
+                }
+              },
+              "city": {
+                "name": {
+                  "farsi": "مشهد",
+                  "english": "Mashhad"
+                },
+                "iata": "MHD"
+              },
+              "name": {
+                "farsi": "فرودگاه شهید هاشمی‌نژاد",
+                "english": "Mashhad"
+              },
+              "iata": "MHD"
+            }
+          },
+          "flightID": "ab751441-e840-4af7-96d0-07ac6ea480de",
+          "airplaneModel": "",
+          "promotion": null,
+          "flightNumber": "6254",
+          "fare": {
+            "adult": 13148000,
+            "child": 0,
+            "infant": 0
+          },
+          "fareClass": "E",
+          "options": [],
+          "priority": 0,
+          "allowedBaggage": [
+            {
+              "code": "BaggageFreeAllowance",
+              "name": {
+                "farsi": "حق چمدان رایگان",
+                "english": ""
+              },
+              "count": 0,
+              "weight": 20,
+              "adultAndChildWeight": 20,
+              "infantWeight": 0
+            }
+          ],
+          "refundPolicy": [
+            {
+              "Text": "از زمان صدور تا 12 ظهر 3 روز قبل از پرواز ",
+              "Percent": 100
+            },
+            {
+              "Text": "از 12 ظهر 3 روز قبل از پرواز  تا 12 ظهر 1 روز قبل از پرواز",
+              "Percent": 100
+            },
+            {
+              "Text": "از 12 ظهر 1 روز قبل از پرواز تا 3 ساعت قبل از پرواز ",
+              "Percent": 100
+            },
+            {
+              "Text": "از 3 ساعت قبل از پرواز به بعد ",
+              "Percent": 100
+            }
+          ],
+          "commission": 0,
+          "agency": ""
+        },
+        {
+          "price": 13148000,
+          "remainingSeats": 0,
+          "isCharter": false,
+          "airline": {
+            "code": "HH",
+            "name": "تابان",
+          },
+          "flightClass": "ECONOMY",
+          "numberOfStops": 0,
+          "totalStopDuration": 0,
+          "departure": {
+            "date": 1709130600,
+            "dateString": "چهارشنبه 9 اسفند",
+            "dateHourString": "18:00",
+            "terminal": "4",
+            "airport": {
+              "country": {
+                "twoLetterCode": "IR",
+                "code": "IRN",
+                "name": {
+                  "farsi": "ایران",
+                  "english": "Iran"
+                }
+              },
+              "city": {
+                "name": {
+                  "farsi": "تهران",
+                  "english": "Tehran"
+                },
+                "iata": "THR"
+              },
+              "name": {
+                "farsi": "فرودگاه بین‌المللی مهرآباد",
+                "english": "Mehrabad"
+              },
+              "iata": "THR"
+            }
+          },
+          "arrival": {
+            "date": 1709135100,
+            "dateString": "چهارشنبه 9 اسفند",
+            "dateHourString": "19:15",
+            "terminal": "",
+            "airport": {
+              "country": {
+                "twoLetterCode": "IR",
+                "code": "IRN",
+                "name": {
+                  "farsi": "ایران",
+                  "english": "Iran"
+                }
+              },
+              "city": {
+                "name": {
+                  "farsi": "مشهد",
+                  "english": "Mashhad"
+                },
+                "iata": "MHD"
+              },
+              "name": {
+                "farsi": "فرودگاه شهید هاشمی‌نژاد",
+                "english": "Mashhad"
+              },
+              "iata": "MHD"
+            }
+          },
+          "flightID": "7b380462-348c-4d6e-958a-e8157cbf3f15",
+          "airplaneModel": "",
+          "promotion": null,
+          "flightNumber": "6256",
+          "fare": {
+            "adult": 13148000,
+            "child": 0,
+            "infant": 0
+          },
+          "fareClass": "E",
+          "options": [],
+          "priority": 0,
+          "allowedBaggage": [
+            {
+              "code": "BaggageFreeAllowance",
+              "name": {
+                "farsi": "حق چمدان رایگان",
+                "english": ""
+              },
+              "count": 0,
+              "weight": 20,
+              "adultAndChildWeight": 20,
+              "infantWeight": 0
+            }
+          ],
+          "refundPolicy": [
+            {
+              "Text": "از زمان صدور تا 12 ظهر 3 روز قبل از پرواز ",
+              "Percent": 100
+            },
+            {
+              "Text": "از 12 ظهر 3 روز قبل از پرواز  تا 12 ظهر 1 روز قبل از پرواز",
+              "Percent": 100
+            },
+            {
+              "Text": "از 12 ظهر 1 روز قبل از پرواز تا 3 ساعت قبل از پرواز ",
+              "Percent": 100
+            },
+            {
+              "Text": "از 3 ساعت قبل از پرواز به بعد ",
+              "Percent": 100
+            }
+          ],
+          "commission": 0,
+          "agency": ""
+        },
+        {
+          "price": 13148000,
+          "remainingSeats": 0,
+          "isCharter": false,
+          "airline": {
+            "code": "HH",
+            "name": "تابان",
+          },
+          "flightClass": "ECONOMY",
+          "numberOfStops": 0,
+          "totalStopDuration": 0,
+          "departure": {
+            "date": 1709130600,
+            "dateString": "چهارشنبه 9 اسفند",
+            "dateHourString": "18:00",
+            "terminal": "4",
+            "airport": {
+              "country": {
+                "twoLetterCode": "IR",
+                "code": "IRN",
+                "name": {
+                  "farsi": "ایران",
+                  "english": "Iran"
+                }
+              },
+              "city": {
+                "name": {
+                  "farsi": "تهران",
+                  "english": "Tehran"
+                },
+                "iata": "THR"
+              },
+              "name": {
+                "farsi": "فرودگاه بین‌المللی مهرآباد",
+                "english": "Mehrabad"
+              },
+              "iata": "THR"
+            }
+          },
+          "arrival": {
+            "date": 1709135100,
+            "dateString": "چهارشنبه 9 اسفند",
+            "dateHourString": "19:15",
+            "terminal": "",
+            "airport": {
+              "country": {
+                "twoLetterCode": "IR",
+                "code": "IRN",
+                "name": {
+                  "farsi": "ایران",
+                  "english": "Iran"
+                }
+              },
+              "city": {
+                "name": {
+                  "farsi": "مشهد",
+                  "english": "Mashhad"
+                },
+                "iata": "MHD"
+              },
+              "name": {
+                "farsi": "فرودگاه شهید هاشمی‌نژاد",
+                "english": "Mashhad"
+              },
+              "iata": "MHD"
+            }
+          },
+          "flightID": "d27af28b-59fd-4e05-a3eb-9d08867b3f95",
+          "airplaneModel": "",
+          "promotion": null,
+          "flightNumber": "6256",
+          "fare": {
+            "adult": 13148000,
+            "child": 0,
+            "infant": 0
+          },
+          "fareClass": "H",
+          "options": [],
+          "priority": 0,
+          "allowedBaggage": [
+            {
+              "code": "BaggageFreeAllowance",
+              "name": {
+                "farsi": "حق چمدان رایگان",
+                "english": ""
+              },
+              "count": 0,
+              "weight": 20,
+              "adultAndChildWeight": 20,
+              "infantWeight": 0
+            }
+          ],
+          "refundPolicy": [],
+          "commission": 0,
+          "agency": ""
+        },
+        {
+          "price": 13148000,
+          "remainingSeats": 0,
+          "isCharter": false,
+          "airline": {
+            "code": "HH",
+            "name": "تابان",
+          },
+          "flightClass": "ECONOMY",
+          "numberOfStops": 0,
+          "totalStopDuration": 0,
+          "departure": {
+            "date": 1709130600,
+            "dateString": "چهارشنبه 9 اسفند",
+            "dateHourString": "18:00",
+            "terminal": "4",
+            "airport": {
+              "country": {
+                "twoLetterCode": "IR",
+                "code": "IRN",
+                "name": {
+                  "farsi": "ایران",
+                  "english": "Iran"
+                }
+              },
+              "city": {
+                "name": {
+                  "farsi": "تهران",
+                  "english": "Tehran"
+                },
+                "iata": "THR"
+              },
+              "name": {
+                "farsi": "فرودگاه بین‌المللی مهرآباد",
+                "english": "Mehrabad"
+              },
+              "iata": "THR"
+            }
+          },
+          "arrival": {
+            "date": 1709135100,
+            "dateString": "چهارشنبه 9 اسفند",
+            "dateHourString": "19:15",
+            "terminal": "",
+            "airport": {
+              "country": {
+                "twoLetterCode": "IR",
+                "code": "IRN",
+                "name": {
+                  "farsi": "ایران",
+                  "english": "Iran"
+                }
+              },
+              "city": {
+                "name": {
+                  "farsi": "مشهد",
+                  "english": "Mashhad"
+                },
+                "iata": "MHD"
+              },
+              "name": {
+                "farsi": "فرودگاه شهید هاشمی‌نژاد",
+                "english": "Mashhad"
+              },
+              "iata": "MHD"
+            }
+          },
+          "flightID": "4e737ba7-3c06-499c-a7e8-3ebc9961438b",
+          "airplaneModel": "",
+          "promotion": null,
+          "flightNumber": "6256",
+          "fare": {
+            "adult": 13148000,
+            "child": 0,
+            "infant": 0
+          },
+          "fareClass": "RH",
+          "options": [],
+          "priority": 0,
+          "allowedBaggage": [
+            {
+              "code": "BaggageFreeAllowance",
+              "name": {
+                "farsi": "حق چمدان رایگان",
+                "english": ""
+              },
+              "count": 0,
+              "weight": 20,
+              "adultAndChildWeight": 20,
+              "infantWeight": 0
+            }
+          ],
+          "refundPolicy": [],
+          "commission": 0,
+          "agency": ""
+        },
+        {
+          "price": 15500000,
+          "remainingSeats": 0,
+          "isCharter": false,
+          "airline": {
+            "code": "IRZ",
+            "name": "ساها",
+          },
+          "flightClass": "ECONOMY",
+          "numberOfStops": 0,
+          "totalStopDuration": 0,
+          "departure": {
+            "date": 1709144400,
+            "dateString": "چهارشنبه 9 اسفند",
+            "dateHourString": "21:50",
+            "terminal": "",
+            "airport": {
+              "country": {
+                "twoLetterCode": "IR",
+                "code": "IRN",
+                "name": {
+                  "farsi": "ایران",
+                  "english": "Iran"
+                }
+              },
+              "city": {
+                "name": {
+                  "farsi": "تهران",
+                  "english": "Tehran"
+                },
+                "iata": "THR"
+              },
+              "name": {
+                "farsi": "فرودگاه بین‌المللی مهرآباد",
+                "english": "Mehrabad"
+              },
+              "iata": "THR"
+            }
+          },
+          "arrival": {
+            "date": 1709148600,
+            "dateString": "چهارشنبه 9 اسفند",
+            "dateHourString": "23:00",
+            "terminal": "",
+            "airport": {
+              "country": {
+                "twoLetterCode": "IR",
+                "code": "IRN",
+                "name": {
+                  "farsi": "ایران",
+                  "english": "Iran"
+                }
+              },
+              "city": {
+                "name": {
+                  "farsi": "مشهد",
+                  "english": "Mashhad"
+                },
+                "iata": "MHD"
+              },
+              "name": {
+                "farsi": "فرودگاه شهید هاشمی‌نژاد",
+                "english": "Mashhad"
+              },
+              "iata": "MHD"
+            }
+          },
+          "flightID": "475c34c6-d96a-4798-bde9-2c3afa58a3b1",
+          "airplaneModel": "",
+          "promotion": null,
+          "flightNumber": "170",
+          "fare": {
+            "adult": 15500000,
+            "child": 0,
+            "infant": 0
+          },
+          "fareClass": "Y",
+          "options": [],
+          "priority": 0,
+          "allowedBaggage": [
+            {
+              "code": "BaggageFreeAllowance",
+              "name": {
+                "farsi": "حق چمدان رایگان",
+                "english": ""
+              },
+              "count": 0,
+              "weight": 20,
+              "adultAndChildWeight": 20,
+              "infantWeight": 0
+            }
+          ],
+          "refundPolicy": [
+            {
+              "Text": "از 4 ساعت قبل از پرواز به بعد",
+              "Percent": 60
+            },
+            {
+              "Text": "از 12:00 ظهر 1 روز قبل از پرواز تا 4 ساعت قبل از پرواز\t",
+              "Percent": 50
+            },
+            {
+              "Text": "از زمان صدور بلیط تا 12:00 ظهر 1 روز قبل از پرواز\t",
+              "Percent": 30
+            }
+          ],
+          "commission": 0,
+          "agency": ""
+        },
+        {
+          "price": 15500000,
+          "remainingSeats": 0,
+          "isCharter": false,
+          "airline": {
+            "code": "IRZ",
+            "name": "ساها",
+          },
+          "flightClass": "ECONOMY",
+          "numberOfStops": 0,
+          "totalStopDuration": 0,
+          "departure": {
+            "date": 1709144400,
+            "dateString": "چهارشنبه 9 اسفند",
+            "dateHourString": "21:50",
+            "terminal": "",
+            "airport": {
+              "country": {
+                "twoLetterCode": "IR",
+                "code": "IRN",
+                "name": {
+                  "farsi": "ایران",
+                  "english": "Iran"
+                }
+              },
+              "city": {
+                "name": {
+                  "farsi": "تهران",
+                  "english": "Tehran"
+                },
+                "iata": "THR"
+              },
+              "name": {
+                "farsi": "فرودگاه بین‌المللی مهرآباد",
+                "english": "Mehrabad"
+              },
+              "iata": "THR"
+            }
+          },
+          "arrival": {
+            "date": 1709148600,
+            "dateString": "چهارشنبه 9 اسفند",
+            "dateHourString": "23:00",
+            "terminal": "",
+            "airport": {
+              "country": {
+                "twoLetterCode": "IR",
+                "code": "IRN",
+                "name": {
+                  "farsi": "ایران",
+                  "english": "Iran"
+                }
+              },
+              "city": {
+                "name": {
+                  "farsi": "مشهد",
+                  "english": "Mashhad"
+                },
+                "iata": "MHD"
+              },
+              "name": {
+                "farsi": "فرودگاه شهید هاشمی‌نژاد",
+                "english": "Mashhad"
+              },
+              "iata": "MHD"
+            }
+          },
+          "flightID": "f743112b-fa7b-4719-9d96-cb38c349186e",
+          "airplaneModel": "",
+          "promotion": null,
+          "flightNumber": "170",
+          "fare": {
+            "adult": 15500000,
+            "child": 0,
+            "infant": 0
+          },
+          "fareClass": "YY",
+          "options": [],
+          "priority": 0,
+          "allowedBaggage": [
+            {
+              "code": "BaggageFreeAllowance",
+              "name": {
+                "farsi": "حق چمدان رایگان",
+                "english": ""
+              },
+              "count": 0,
+              "weight": 20,
+              "adultAndChildWeight": 20,
+              "infantWeight": 0
+            }
+          ],
+          "refundPolicy": [],
+          "commission": 0,
+          "agency": ""
+        },
+        {
+          "price": 19813000,
+          "remainingSeats": 0,
+          "isCharter": false,
+          "airline": {
+            "code": "VR",
+            "name": "وارش",
+          },
+          "flightClass": "ECONOMY",
+          "numberOfStops": 0,
+          "totalStopDuration": 0,
+          "departure": {
+            "date": 1709089800,
+            "dateString": "چهارشنبه 9 اسفند",
+            "dateHourString": "06:40",
+            "terminal": "1",
+            "airport": {
+              "country": {
+                "twoLetterCode": "IR",
+                "code": "IRN",
+                "name": {
+                  "farsi": "ایران",
+                  "english": "Iran"
+                }
+              },
+              "city": {
+                "name": {
+                  "farsi": "تهران",
+                  "english": "Tehran"
+                },
+                "iata": "THR"
+              },
+              "name": {
+                "farsi": "فرودگاه بین‌المللی مهرآباد",
+                "english": "Mehrabad"
+              },
+              "iata": "THR"
+            }
+          },
+          "arrival": {
+            "date": 1709095500,
+            "dateString": "چهارشنبه 9 اسفند",
+            "dateHourString": "08:15",
+            "terminal": "",
+            "airport": {
+              "country": {
+                "twoLetterCode": "IR",
+                "code": "IRN",
+                "name": {
+                  "farsi": "ایران",
+                  "english": "Iran"
+                }
+              },
+              "city": {
+                "name": {
+                  "farsi": "مشهد",
+                  "english": "Mashhad"
+                },
+                "iata": "MHD"
+              },
+              "name": {
+                "farsi": "فرودگاه شهید هاشمی‌نژاد",
+                "english": "Mashhad"
+              },
+              "iata": "MHD"
+            }
+          },
+          "flightID": "55c1fb67-5b68-4037-8f2f-72ebc7fcbdb0",
+          "airplaneModel": "",
+          "promotion": null,
+          "flightNumber": "5876",
+          "fare": {
+            "adult": 19813000,
+            "child": 0,
+            "infant": 0
+          },
+          "fareClass": "IF",
+          "options": [],
+          "priority": 0,
+          "allowedBaggage": [
+            {
+              "code": "BaggageFreeAllowance",
+              "name": {
+                "farsi": "حق چمدان رایگان",
+                "english": ""
+              },
+              "count": 0,
+              "weight": 20,
+              "adultAndChildWeight": 20,
+              "infantWeight": 0
+            }
+          ],
+          "refundPolicy": [],
+          "commission": 0,
+          "agency": ""
+        },
+        {
+          "price": 19813000,
+          "remainingSeats": 0,
+          "isCharter": false,
+          "airline": {
+            "code": "VR",
+            "name": "وارش",
+          },
+          "flightClass": "ECONOMY",
+          "numberOfStops": 0,
+          "totalStopDuration": 0,
+          "departure": {
+            "date": 1709098200,
+            "dateString": "چهارشنبه 9 اسفند",
+            "dateHourString": "09:00",
+            "terminal": "1",
+            "airport": {
+              "country": {
+                "twoLetterCode": "IR",
+                "code": "IRN",
+                "name": {
+                  "farsi": "ایران",
+                  "english": "Iran"
+                }
+              },
+              "city": {
+                "name": {
+                  "farsi": "تهران",
+                  "english": "Tehran"
+                },
+                "iata": "THR"
+              },
+              "name": {
+                "farsi": "فرودگاه بین‌المللی مهرآباد",
+                "english": "Mehrabad"
+              },
+              "iata": "THR"
+            }
+          },
+          "arrival": {
+            "date": 1709103600,
+            "dateString": "چهارشنبه 9 اسفند",
+            "dateHourString": "10:30",
+            "terminal": "",
+            "airport": {
+              "country": {
+                "twoLetterCode": "IR",
+                "code": "IRN",
+                "name": {
+                  "farsi": "ایران",
+                  "english": "Iran"
+                }
+              },
+              "city": {
+                "name": {
+                  "farsi": "مشهد",
+                  "english": "Mashhad"
+                },
+                "iata": "MHD"
+              },
+              "name": {
+                "farsi": "فرودگاه شهید هاشمی‌نژاد",
+                "english": "Mashhad"
+              },
+              "iata": "MHD"
+            }
+          },
+          "flightID": "d95210d6-fc88-42a1-8441-29d18143e656",
+          "airplaneModel": "",
+          "promotion": null,
+          "flightNumber": "5902",
+          "fare": {
+            "adult": 19813000,
+            "child": 0,
+            "infant": 0
+          },
+          "fareClass": "IF",
+          "options": [],
+          "priority": 0,
+          "allowedBaggage": [
+            {
+              "code": "BaggageFreeAllowance",
+              "name": {
+                "farsi": "حق چمدان رایگان",
+                "english": ""
+              },
+              "count": 0,
+              "weight": 20,
+              "adultAndChildWeight": 20,
+              "infantWeight": 0
+            }
+          ],
+          "refundPolicy": [],
+          "commission": 0,
+          "agency": ""
+        },
+        {
+          "price": 19813000,
+          "remainingSeats": 0,
+          "isCharter": false,
+          "airline": {
+            "code": "VR",
+            "name": "وارش",
+          },
+          "flightClass": "ECONOMY",
+          "numberOfStops": 0,
+          "totalStopDuration": 0,
+          "departure": {
+            "date": 1709101800,
+            "dateString": "چهارشنبه 9 اسفند",
+            "dateHourString": "10:00",
+            "terminal": "1",
+            "airport": {
+              "country": {
+                "twoLetterCode": "IR",
+                "code": "IRN",
+                "name": {
+                  "farsi": "ایران",
+                  "english": "Iran"
+                }
+              },
+              "city": {
+                "name": {
+                  "farsi": "تهران",
+                  "english": "Tehran"
+                },
+                "iata": "THR"
+              },
+              "name": {
+                "farsi": "فرودگاه بین‌المللی مهرآباد",
+                "english": "Mehrabad"
+              },
+              "iata": "THR"
+            }
+          },
+          "arrival": {
+            "date": 1709106300,
+            "dateString": "چهارشنبه 9 اسفند",
+            "dateHourString": "11:15",
+            "terminal": "",
+            "airport": {
+              "country": {
+                "twoLetterCode": "IR",
+                "code": "IRN",
+                "name": {
+                  "farsi": "ایران",
+                  "english": "Iran"
+                }
+              },
+              "city": {
+                "name": {
+                  "farsi": "مشهد",
+                  "english": "Mashhad"
+                },
+                "iata": "MHD"
+              },
+              "name": {
+                "farsi": "فرودگاه شهید هاشمی‌نژاد",
+                "english": "Mashhad"
+              },
+              "iata": "MHD"
+            }
+          },
+          "flightID": "091c8173-d4bf-47bd-aaaa-7b94a040c8bb",
+          "airplaneModel": "",
+          "promotion": null,
+          "flightNumber": "5840",
+          "fare": {
+            "adult": 19813000,
+            "child": 0,
+            "infant": 0
+          },
+          "fareClass": "IF",
+          "options": [],
+          "priority": 0,
+          "allowedBaggage": [
+            {
+              "code": "BaggageFreeAllowance",
+              "name": {
+                "farsi": "حق چمدان رایگان",
+                "english": ""
+              },
+              "count": 0,
+              "weight": 20,
+              "adultAndChildWeight": 20,
+              "infantWeight": 0
+            }
+          ],
+          "refundPolicy": [],
+          "commission": 0,
+          "agency": ""
+        },
+        {
+          "price": 19813000,
+          "remainingSeats": 0,
+          "isCharter": false,
+          "airline": {
+            "code": "VR",
+            "name": "وارش",
+          },
+          "flightClass": "ECONOMY",
+          "numberOfStops": 0,
+          "totalStopDuration": 0,
+          "departure": {
+            "date": 1709123400,
+            "dateString": "چهارشنبه 9 اسفند",
+            "dateHourString": "16:00",
+            "terminal": "1",
+            "airport": {
+              "country": {
+                "twoLetterCode": "IR",
+                "code": "IRN",
+                "name": {
+                  "farsi": "ایران",
+                  "english": "Iran"
+                }
+              },
+              "city": {
+                "name": {
+                  "farsi": "تهران",
+                  "english": "Tehran"
+                },
+                "iata": "THR"
+              },
+              "name": {
+                "farsi": "فرودگاه بین‌المللی مهرآباد",
+                "english": "Mehrabad"
+              },
+              "iata": "THR"
+            }
+          },
+          "arrival": {
+            "date": 1709128800,
+            "dateString": "چهارشنبه 9 اسفند",
+            "dateHourString": "17:30",
+            "terminal": "",
+            "airport": {
+              "country": {
+                "twoLetterCode": "IR",
+                "code": "IRN",
+                "name": {
+                  "farsi": "ایران",
+                  "english": "Iran"
+                }
+              },
+              "city": {
+                "name": {
+                  "farsi": "مشهد",
+                  "english": "Mashhad"
+                },
+                "iata": "MHD"
+              },
+              "name": {
+                "farsi": "فرودگاه شهید هاشمی‌نژاد",
+                "english": "Mashhad"
+              },
+              "iata": "MHD"
+            }
+          },
+          "flightID": "f7798c67-ac06-46d8-bcaa-3acd6a68a30c",
+          "airplaneModel": "",
+          "promotion": null,
+          "flightNumber": "5856",
+          "fare": {
+            "adult": 19813000,
+            "child": 0,
+            "infant": 0
+          },
+          "fareClass": "IF",
+          "options": [],
+          "priority": 0,
+          "allowedBaggage": [
+            {
+              "code": "BaggageFreeAllowance",
+              "name": {
+                "farsi": "حق چمدان رایگان",
+                "english": ""
+              },
+              "count": 0,
+              "weight": 20,
+              "adultAndChildWeight": 20,
+              "infantWeight": 0
+            }
+          ],
+          "refundPolicy": [],
+          "commission": 0,
+          "agency": ""
+        },
+        {
+          "price": 21920000,
+          "remainingSeats": 0,
+          "isCharter": false,
+          "airline": {
+            "code": "NV",
+            "name": "کارون",
+          },
+          "flightClass": "ECONOMY",
+          "numberOfStops": 0,
+          "totalStopDuration": 0,
+          "departure": {
+            "date": 1709135100,
+            "dateString": "چهارشنبه 9 اسفند",
+            "dateHourString": "19:15",
+            "terminal": "2",
+            "airport": {
+              "country": {
+                "twoLetterCode": "IR",
+                "code": "IRN",
+                "name": {
+                  "farsi": "ایران",
+                  "english": "Iran"
+                }
+              },
+              "city": {
+                "name": {
+                  "farsi": "تهران",
+                  "english": "Tehran"
+                },
+                "iata": "THR"
+              },
+              "name": {
+                "farsi": "فرودگاه بین‌المللی مهرآباد",
+                "english": "Mehrabad"
+              },
+              "iata": "THR"
+            }
+          },
+          "arrival": {
+            "date": 1709139900,
+            "dateString": "چهارشنبه 9 اسفند",
+            "dateHourString": "20:35",
+            "terminal": "",
+            "airport": {
+              "country": {
+                "twoLetterCode": "IR",
+                "code": "IRN",
+                "name": {
+                  "farsi": "ایران",
+                  "english": "Iran"
+                }
+              },
+              "city": {
+                "name": {
+                  "farsi": "مشهد",
+                  "english": "Mashhad"
+                },
+                "iata": "MHD"
+              },
+              "name": {
+                "farsi": "فرودگاه شهید هاشمی‌نژاد",
+                "english": "Mashhad"
+              },
+              "iata": "MHD"
+            }
+          },
+          "flightID": "2b6224f0-23b3-416d-b387-cbc590e92ab7",
+          "airplaneModel": "BOEING 733",
+          "promotion": null,
+          "flightNumber": "2638",
+          "fare": {
+            "adult": 21920000,
+            "child": 0,
+            "infant": 0
+          },
+          "fareClass": "L",
+          "options": [],
+          "priority": 0,
+          "allowedBaggage": [
+            {
+              "code": "BaggageFreeAllowance",
+              "name": {
+                "farsi": "حق چمدان رایگان",
+                "english": ""
+              },
+              "count": 0,
+              "weight": 20,
+              "adultAndChildWeight": 20,
+              "infantWeight": 0
+            }
+          ],
+          "refundPolicy": [
+            {
+              "Text": "از 3 ساعت قبل از پرواز به بعد",
+              "Percent": 70
+            },
+            {
+              "Text": "از 12:00 ظهر 1 روز قبل از پرواز تا 3 ساعت قبل از پرواز",
+              "Percent": 50
+            },
+            {
+              "Text": "از زمان صدور بلیط تا 12:00 ظهر 1 روز قبل از پرواز",
+              "Percent": 30
+            }
+          ],
+          "commission": 0,
+          "agency": ""
+        },
+        {
+          "price": 23002000,
+          "remainingSeats": 0,
+          "isCharter": false,
+          "airline": {
+            "code": "ZV",
+            "name": "زاگرس",
+          },
+          "flightClass": "ECONOMY",
+          "numberOfStops": 0,
+          "totalStopDuration": 0,
+          "departure": {
+            "date": 1709150400,
+            "dateString": "چهارشنبه 9 اسفند",
+            "dateHourString": "23:30",
+            "terminal": "1",
+            "airport": {
+              "country": {
+                "twoLetterCode": "IR",
+                "code": "IRN",
+                "name": {
+                  "farsi": "ایران",
+                  "english": "Iran"
+                }
+              },
+              "city": {
+                "name": {
+                  "farsi": "تهران",
+                  "english": "Tehran"
+                },
+                "iata": "THR"
+              },
+              "name": {
+                "farsi": "فرودگاه بین‌المللی مهرآباد",
+                "english": "Mehrabad"
+              },
+              "iata": "THR"
+            }
+          },
+          "arrival": {
+            "date": 1709155800,
+            "dateString": "پنج‌شنبه 10 اسفند",
+            "dateHourString": "01:00",
+            "terminal": "",
+            "airport": {
+              "country": {
+                "twoLetterCode": "IR",
+                "code": "IRN",
+                "name": {
+                  "farsi": "ایران",
+                  "english": "Iran"
+                }
+              },
+              "city": {
+                "name": {
+                  "farsi": "مشهد",
+                  "english": "Mashhad"
+                },
+                "iata": "MHD"
+              },
+              "name": {
+                "farsi": "فرودگاه شهید هاشمی‌نژاد",
+                "english": "Mashhad"
+              },
+              "iata": "MHD"
+            }
+          },
+          "flightID": "f2801a06-899a-4f80-a992-5309e2ec1326",
+          "airplaneModel": "",
+          "promotion": null,
+          "flightNumber": "4057",
+          "fare": {
+            "adult": 23002000,
+            "child": 0,
+            "infant": 0
+          },
+          "fareClass": "YS",
+          "options": [],
+          "priority": 0,
+          "allowedBaggage": [
+            {
+              "code": "BaggageFreeAllowance",
+              "name": {
+                "farsi": "حق چمدان رایگان",
+                "english": ""
+              },
+              "count": 0,
+              "weight": 20,
+              "adultAndChildWeight": 20,
+              "infantWeight": 0
+            }
+          ],
+          "refundPolicy": [],
+          "commission": 0,
+          "agency": ""
+        },
+        {
+          "price": 23720000,
+          "remainingSeats": 0,
+          "isCharter": false,
+          "airline": {
+            "code": "NV",
+            "name": "کارون",
+          },
+          "flightClass": "ECONOMY",
+          "numberOfStops": 0,
+          "totalStopDuration": 0,
+          "departure": {
+            "date": 1709135100,
+            "dateString": "چهارشنبه 9 اسفند",
+            "dateHourString": "19:15",
+            "terminal": "2",
+            "airport": {
+              "country": {
+                "twoLetterCode": "IR",
+                "code": "IRN",
+                "name": {
+                  "farsi": "ایران",
+                  "english": "Iran"
+                }
+              },
+              "city": {
+                "name": {
+                  "farsi": "تهران",
+                  "english": "Tehran"
+                },
+                "iata": "THR"
+              },
+              "name": {
+                "farsi": "فرودگاه بین‌المللی مهرآباد",
+                "english": "Mehrabad"
+              },
+              "iata": "THR"
+            }
+          },
+          "arrival": {
+            "date": 1709139900,
+            "dateString": "چهارشنبه 9 اسفند",
+            "dateHourString": "20:35",
+            "terminal": "",
+            "airport": {
+              "country": {
+                "twoLetterCode": "IR",
+                "code": "IRN",
+                "name": {
+                  "farsi": "ایران",
+                  "english": "Iran"
+                }
+              },
+              "city": {
+                "name": {
+                  "farsi": "مشهد",
+                  "english": "Mashhad"
+                },
+                "iata": "MHD"
+              },
+              "name": {
+                "farsi": "فرودگاه شهید هاشمی‌نژاد",
+                "english": "Mashhad"
+              },
+              "iata": "MHD"
+            }
+          },
+          "flightID": "12df0541-6e02-4310-8090-2ca9f289e13b",
+          "airplaneModel": "BOEING 733",
+          "promotion": null,
+          "flightNumber": "2638",
+          "fare": {
+            "adult": 23720000,
+            "child": 0,
+            "infant": 0
+          },
+          "fareClass": "K",
+          "options": [],
+          "priority": 0,
+          "allowedBaggage": [
+            {
+              "code": "BaggageFreeAllowance",
+              "name": {
+                "farsi": "حق چمدان رایگان",
+                "english": ""
+              },
+              "count": 0,
+              "weight": 20,
+              "adultAndChildWeight": 20,
+              "infantWeight": 0
+            }
+          ],
+          "refundPolicy": [
+            {
+              "Text": "از 3 ساعت قبل از پرواز به بعد",
+              "Percent": 70
+            },
+            {
+              "Text": "از 12:00 ظهر 1 روز قبل از پرواز تا 3 ساعت قبل از پرواز",
+              "Percent": 50
+            },
+            {
+              "Text": "از زمان صدور بلیط تا 12:00 ظهر 1 روز قبل از پرواز",
+              "Percent": 30
+            }
+          ],
+          "commission": 0,
+          "agency": ""
+        },
+        {
+          "price": 25520000,
+          "remainingSeats": 0,
+          "isCharter": false,
+          "airline": {
+            "code": "NV",
+            "name": "کارون",
+          },
+          "flightClass": "ECONOMY",
+          "numberOfStops": 0,
+          "totalStopDuration": 0,
+          "departure": {
+            "date": 1709135100,
+            "dateString": "چهارشنبه 9 اسفند",
+            "dateHourString": "19:15",
+            "terminal": "2",
+            "airport": {
+              "country": {
+                "twoLetterCode": "IR",
+                "code": "IRN",
+                "name": {
+                  "farsi": "ایران",
+                  "english": "Iran"
+                }
+              },
+              "city": {
+                "name": {
+                  "farsi": "تهران",
+                  "english": "Tehran"
+                },
+                "iata": "THR"
+              },
+              "name": {
+                "farsi": "فرودگاه بین‌المللی مهرآباد",
+                "english": "Mehrabad"
+              },
+              "iata": "THR"
+            }
+          },
+          "arrival": {
+            "date": 1709139900,
+            "dateString": "چهارشنبه 9 اسفند",
+            "dateHourString": "20:35",
+            "terminal": "",
+            "airport": {
+              "country": {
+                "twoLetterCode": "IR",
+                "code": "IRN",
+                "name": {
+                  "farsi": "ایران",
+                  "english": "Iran"
+                }
+              },
+              "city": {
+                "name": {
+                  "farsi": "مشهد",
+                  "english": "Mashhad"
+                },
+                "iata": "MHD"
+              },
+              "name": {
+                "farsi": "فرودگاه شهید هاشمی‌نژاد",
+                "english": "Mashhad"
+              },
+              "iata": "MHD"
+            }
+          },
+          "flightID": "0ebb8c73-f280-4cea-9e20-d27209881974",
+          "airplaneModel": "BOEING 733",
+          "promotion": null,
+          "flightNumber": "2638",
+          "fare": {
+            "adult": 25520000,
+            "child": 0,
+            "infant": 0
+          },
+          "fareClass": "H",
+          "options": [],
+          "priority": 0,
+          "allowedBaggage": [
+            {
+              "code": "BaggageFreeAllowance",
+              "name": {
+                "farsi": "حق چمدان رایگان",
+                "english": ""
+              },
+              "count": 0,
+              "weight": 20,
+              "adultAndChildWeight": 20,
+              "infantWeight": 0
+            }
+          ],
+          "refundPolicy": [
+            {
+              "Text": "از 3 ساعت قبل از پرواز به بعد",
+              "Percent": 70
+            },
+            {
+              "Text": "از 12:00 ظهر 1 روز قبل از پرواز تا 3 ساعت قبل از پرواز",
+              "Percent": 50
+            },
+            {
+              "Text": "از زمان صدور بلیط تا 12:00 ظهر 1 روز قبل از پرواز",
+              "Percent": 30
+            }
+          ],
+          "commission": 0,
+          "agency": ""
+        },
+        {
+          "price": 27319000,
+          "remainingSeats": 0,
+          "isCharter": false,
+          "airline": {
+            "code": "NV",
+            "name": "کارون",
+          },
+          "flightClass": "ECONOMY",
+          "numberOfStops": 0,
+          "totalStopDuration": 0,
+          "departure": {
+            "date": 1709135100,
+            "dateString": "چهارشنبه 9 اسفند",
+            "dateHourString": "19:15",
+            "terminal": "2",
+            "airport": {
+              "country": {
+                "twoLetterCode": "IR",
+                "code": "IRN",
+                "name": {
+                  "farsi": "ایران",
+                  "english": "Iran"
+                }
+              },
+              "city": {
+                "name": {
+                  "farsi": "تهران",
+                  "english": "Tehran"
+                },
+                "iata": "THR"
+              },
+              "name": {
+                "farsi": "فرودگاه بین‌المللی مهرآباد",
+                "english": "Mehrabad"
+              },
+              "iata": "THR"
+            }
+          },
+          "arrival": {
+            "date": 1709139900,
+            "dateString": "چهارشنبه 9 اسفند",
+            "dateHourString": "20:35",
+            "terminal": "",
+            "airport": {
+              "country": {
+                "twoLetterCode": "IR",
+                "code": "IRN",
+                "name": {
+                  "farsi": "ایران",
+                  "english": "Iran"
+                }
+              },
+              "city": {
+                "name": {
+                  "farsi": "مشهد",
+                  "english": "Mashhad"
+                },
+                "iata": "MHD"
+              },
+              "name": {
+                "farsi": "فرودگاه شهید هاشمی‌نژاد",
+                "english": "Mashhad"
+              },
+              "iata": "MHD"
+            }
+          },
+          "flightID": "6e99bd33-6e9e-4781-87d2-8233062ffadb",
+          "airplaneModel": "BOEING 733",
+          "promotion": null,
+          "flightNumber": "2638",
+          "fare": {
+            "adult": 27319000,
+            "child": 0,
+            "infant": 0
+          },
+          "fareClass": "E",
+          "options": [],
+          "priority": 0,
+          "allowedBaggage": [
+            {
+              "code": "BaggageFreeAllowance",
+              "name": {
+                "farsi": "حق چمدان رایگان",
+                "english": ""
+              },
+              "count": 0,
+              "weight": 20,
+              "adultAndChildWeight": 20,
+              "infantWeight": 0
+            }
+          ],
+          "refundPolicy": [
+            {
+              "Text": "از 3 ساعت قبل از پرواز به بعد",
+              "Percent": 70
+            },
+            {
+              "Text": "از 12:00 ظهر 1 روز قبل از پرواز تا 3 ساعت قبل از پرواز",
+              "Percent": 50
+            },
+            {
+              "Text": "از زمان صدور بلیط تا 12:00 ظهر 1 روز قبل از پرواز",
+              "Percent": 30
+            }
+          ],
+          "commission": 0,
+          "agency": ""
+        },
+        {
+          "price": 29120000,
+          "remainingSeats": 0,
+          "isCharter": false,
+          "airline": {
+            "code": "NV",
+            "name": "کارون",
+          },
+          "flightClass": "ECONOMY",
+          "numberOfStops": 0,
+          "totalStopDuration": 0,
+          "departure": {
+            "date": 1709135100,
+            "dateString": "چهارشنبه 9 اسفند",
+            "dateHourString": "19:15",
+            "terminal": "2",
+            "airport": {
+              "country": {
+                "twoLetterCode": "IR",
+                "code": "IRN",
+                "name": {
+                  "farsi": "ایران",
+                  "english": "Iran"
+                }
+              },
+              "city": {
+                "name": {
+                  "farsi": "تهران",
+                  "english": "Tehran"
+                },
+                "iata": "THR"
+              },
+              "name": {
+                "farsi": "فرودگاه بین‌المللی مهرآباد",
+                "english": "Mehrabad"
+              },
+              "iata": "THR"
+            }
+          },
+          "arrival": {
+            "date": 1709139900,
+            "dateString": "چهارشنبه 9 اسفند",
+            "dateHourString": "20:35",
+            "terminal": "",
+            "airport": {
+              "country": {
+                "twoLetterCode": "IR",
+                "code": "IRN",
+                "name": {
+                  "farsi": "ایران",
+                  "english": "Iran"
+                }
+              },
+              "city": {
+                "name": {
+                  "farsi": "مشهد",
+                  "english": "Mashhad"
+                },
+                "iata": "MHD"
+              },
+              "name": {
+                "farsi": "فرودگاه شهید هاشمی‌نژاد",
+                "english": "Mashhad"
+              },
+              "iata": "MHD"
+            }
+          },
+          "flightID": "fa8bcf62-4230-475a-88e2-e794cc04a129",
+          "airplaneModel": "BOEING 733",
+          "promotion": null,
+          "flightNumber": "2638",
+          "fare": {
+            "adult": 29120000,
+            "child": 0,
+            "infant": 0
+          },
+          "fareClass": "B",
+          "options": [],
+          "priority": 0,
+          "allowedBaggage": [
+            {
+              "code": "BaggageFreeAllowance",
+              "name": {
+                "farsi": "حق چمدان رایگان",
+                "english": ""
+              },
+              "count": 0,
+              "weight": 20,
+              "adultAndChildWeight": 20,
+              "infantWeight": 0
+            }
+          ],
+          "refundPolicy": [
+            {
+              "Text": "از زمان صدور بلیط تا 12:00 ظهر 1 روز قبل از پرواز",
+              "Percent": 30
+            },
+            {
+              "Text": "از 12:00 ظهر 1 روز قبل از پرواز تا 3 ساعت قبل از پرواز",
+              "Percent": 50
+            },
+            {
+              "Text": "از 3 ساعت قبل از پرواز به بعد",
+              "Percent": 70
+            }
+          ],
+          "commission": 0,
+          "agency": ""
+        }
+      ],
+    }
+  ],
+}
