@@ -2,13 +2,15 @@ import type { Meta, StoryObj } from "@storybook/react"
 import { Badge } from "./Badge"
 
 const meta: Meta<typeof Badge> = {
-  title: "Button",
+  title: "Ui/Badge",
   tags: ["autodocs"],
   component: Badge,
   args: {
-    children: "Button",
+    children: "Badge",
   },
-  argTypes: {},
+  argTypes: {
+    className: { control: "text" },
+  },
 }
 
 type Story = StoryObj<typeof Badge>
