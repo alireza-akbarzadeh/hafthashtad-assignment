@@ -13,7 +13,7 @@
   - [🎨 Styling and Design System](#-styling-and-design-system)
     - [CVA - A New Approach to Variants](#cva---a-new-approach-to-variants)
   - [💻 Environment Variables handling](#-environment-variables-handling)
-  - [💻 project Assignment](#-Assignment)
+  - [🎯 project Assignment](#-project-assignment)
   
 ## 🎯 Getting Started
 
@@ -186,7 +186,7 @@ If the required environment variables are not set, you'll get an error message:
 
 
 
-## Assignment
+## 🎯 Project Assignment
 
 # Senior Front-End Developer Interview Assignment
 
