@@ -24,9 +24,7 @@ export default function Web() {
   return (
     <>
       <section className="bg-white dark:bg-gray-900">
-        <Button intent="primary" size="sm">
-          button
-        </Button>
+        <Button size="sm">button</Button>
       </section>
     </>
   )

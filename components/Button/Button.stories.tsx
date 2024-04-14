@@ -4,14 +4,14 @@ import { Button } from "./Button"
 const meta: Meta<typeof Button> = {
   title: "Button",
   component: Button,
+  tags: ["autodocs"],
   args: {
-    intent: "primary",
-    underline: false,
+    variant: "default",
     children: "Button",
     size: "lg",
   },
   argTypes: {
-    intent: {
+    variant: {
       options: ["primary", "secondary"],
       control: { type: "select" },
     },

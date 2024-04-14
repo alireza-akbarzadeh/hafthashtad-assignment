@@ -1,9 +1,18 @@
 import "styles/tailwind.css"
+import { Inter as FontSans } from "next/font/google"
+import { PropsWithChildren } from "react"
+import { cn } from "lib/utils"
 
-export default function RootLayout({ children }: { children: React.ReactNode }) {
+const fontSans = FontSans({
+  subsets: ["latin"],
+  variable: "--font-sans",
+})
+
+export default function RootLayout({ children }: PropsWithChildren) {
   return (
-    <html lang="en">
-      <body>{children}</body>
+    <html lang="en" suppressHydrationWarning>
+      <head />
+      <body className={cn("bg-background min-h-screen font-sans antialiased", fontSans.variable)}>{children}</body>
     </html>
   )
 }
