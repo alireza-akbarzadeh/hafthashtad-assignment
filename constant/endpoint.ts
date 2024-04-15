@@ -6,4 +6,4 @@
  * @see https://mockbin.io
  */
 
-export const endpoint: string = "https://c2d1585c64f9489ea35fca71730905a6.api.mockbin.io/"
+export const endpoint: string = "https://df3967b53eae4e628b0a16a56eba91fd.api.mockbin.io/"

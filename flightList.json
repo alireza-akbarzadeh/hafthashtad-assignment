@@ -8,7 +8,7 @@
           "isCharter": false,
           "airline": {
             "code": "ZV",
-            "name": "زاگرس",
+            "name": "زاگرس"
           },
           "flightClass": "ECONOMY",
           "numberOfStops": 0,
@@ -121,7 +121,7 @@
           "isCharter": false,
           "airline": {
             "code": "ZV",
-            "name": "زاگرس",
+            "name": "زاگرس"
           },
           "flightClass": "ECONOMY",
           "numberOfStops": 0,
@@ -234,7 +234,7 @@
           "isCharter": false,
           "airline": {
             "code": "NV",
-            "name": "کارون",
+            "name": "کارون"
           },
           "flightClass": "ECONOMY",
           "numberOfStops": 0,
@@ -343,7 +343,7 @@
           "isCharter": true,
           "airline": {
             "code": "I3",
-            "name": "آتا",
+            "name": "آتا"
           },
           "flightClass": "ECONOMY",
           "numberOfStops": 0,
@@ -478,7 +478,7 @@
           "isCharter": true,
           "airline": {
             "code": "IRU",
-            "name": "هواپيمايي چابهار",
+            "name": "هواپيمايي چابهار"
           },
           "flightClass": "BUSINESS",
           "numberOfStops": 0,
@@ -591,7 +591,7 @@
           "isCharter": true,
           "airline": {
             "code": "IRU",
-            "name": "چابهار",
+            "name": "چابهار"
           },
           "flightClass": "BUSINESS",
           "numberOfStops": 0,
@@ -726,7 +726,7 @@
           "isCharter": false,
           "airline": {
             "code": "EP",
-            "name": "اسمان",
+            "name": "اسمان"
           },
           "flightClass": "ECONOMY",
           "numberOfStops": 0,
@@ -831,7 +831,7 @@
           "isCharter": false,
           "airline": {
             "code": "EP",
-            "name": "اسمان",
+            "name": "اسمان"
           },
           "flightClass": "ECONOMY",
           "numberOfStops": 0,
@@ -936,7 +936,7 @@
           "isCharter": false,
           "airline": {
             "code": "ZV",
-            "name": "زاگرس",
+            "name": "زاگرس"
           },
           "flightClass": "ECONOMY",
           "numberOfStops": 0,
@@ -1032,7 +1032,7 @@
           "isCharter": false,
           "airline": {
             "code": "EP",
-            "name": "اسمان",
+            "name": "اسمان"
           },
           "flightClass": "ECONOMY",
           "numberOfStops": 0,
@@ -1137,7 +1137,7 @@
           "isCharter": false,
           "airline": {
             "code": "EP",
-            "name": "اسمان",
+            "name": "اسمان"
           },
           "flightClass": "ECONOMY",
           "numberOfStops": 0,
@@ -1242,7 +1242,7 @@
           "isCharter": false,
           "airline": {
             "code": "HH",
-            "name": "تابان",
+            "name": "تابان"
           },
           "flightClass": "ECONOMY",
           "numberOfStops": 0,
@@ -1355,7 +1355,7 @@
           "isCharter": false,
           "airline": {
             "code": "HH",
-            "name": "تابان",
+            "name": "تابان"
           },
           "flightClass": "ECONOMY",
           "numberOfStops": 0,
@@ -1468,7 +1468,7 @@
           "isCharter": false,
           "airline": {
             "code": "HH",
-            "name": "تابان",
+            "name": "تابان"
           },
           "flightClass": "ECONOMY",
           "numberOfStops": 0,
@@ -1581,7 +1581,7 @@
           "isCharter": false,
           "airline": {
             "code": "HH",
-            "name": "تابان",
+            "name": "تابان"
           },
           "flightClass": "ECONOMY",
           "numberOfStops": 0,
@@ -1677,7 +1677,7 @@
           "isCharter": false,
           "airline": {
             "code": "HH",
-            "name": "تابان",
+            "name": "تابان"
           },
           "flightClass": "ECONOMY",
           "numberOfStops": 0,
@@ -1773,7 +1773,7 @@
           "isCharter": false,
           "airline": {
             "code": "IRZ",
-            "name": "ساها",
+            "name": "ساها"
           },
           "flightClass": "ECONOMY",
           "numberOfStops": 0,
@@ -1882,7 +1882,7 @@
           "isCharter": false,
           "airline": {
             "code": "IRZ",
-            "name": "ساها",
+            "name": "ساها"
           },
           "flightClass": "ECONOMY",
           "numberOfStops": 0,
@@ -1978,7 +1978,7 @@
           "isCharter": false,
           "airline": {
             "code": "VR",
-            "name": "وارش",
+            "name": "وارش"
           },
           "flightClass": "ECONOMY",
           "numberOfStops": 0,
@@ -2074,7 +2074,7 @@
           "isCharter": false,
           "airline": {
             "code": "VR",
-            "name": "وارش",
+            "name": "وارش"
           },
           "flightClass": "ECONOMY",
           "numberOfStops": 0,
@@ -2170,7 +2170,7 @@
           "isCharter": false,
           "airline": {
             "code": "VR",
-            "name": "وارش",
+            "name": "وارش"
           },
           "flightClass": "ECONOMY",
           "numberOfStops": 0,
@@ -2266,7 +2266,7 @@
           "isCharter": false,
           "airline": {
             "code": "VR",
-            "name": "وارش",
+            "name": "وارش"
           },
           "flightClass": "ECONOMY",
           "numberOfStops": 0,
@@ -2362,7 +2362,7 @@
           "isCharter": false,
           "airline": {
             "code": "NV",
-            "name": "کارون",
+            "name": "کارون"
           },
           "flightClass": "ECONOMY",
           "numberOfStops": 0,
@@ -2471,7 +2471,7 @@
           "isCharter": false,
           "airline": {
             "code": "ZV",
-            "name": "زاگرس",
+            "name": "زاگرس"
           },
           "flightClass": "ECONOMY",
           "numberOfStops": 0,
@@ -2567,7 +2567,7 @@
           "isCharter": false,
           "airline": {
             "code": "NV",
-            "name": "کارون",
+            "name": "کارون"
           },
           "flightClass": "ECONOMY",
           "numberOfStops": 0,
@@ -2676,7 +2676,7 @@
           "isCharter": false,
           "airline": {
             "code": "NV",
-            "name": "کارون",
+            "name": "کارون"
           },
           "flightClass": "ECONOMY",
           "numberOfStops": 0,
@@ -2785,7 +2785,7 @@
           "isCharter": false,
           "airline": {
             "code": "NV",
-            "name": "کارون",
+            "name": "کارون"
           },
           "flightClass": "ECONOMY",
           "numberOfStops": 0,
@@ -2894,7 +2894,7 @@
           "isCharter": false,
           "airline": {
             "code": "NV",
-            "name": "کارون",
+            "name": "کارون"
           },
           "flightClass": "ECONOMY",
           "numberOfStops": 0,
@@ -2997,7 +2997,8 @@
           "commission": 0,
           "agency": ""
         }
-      ],
+      ]
     }
-  ],
+  ]
 }
+

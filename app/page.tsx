@@ -1,10 +1,11 @@
 import { Metadata } from "next"
-import { Button } from "components/Button/Button"
-// project technology
-// url: "https://next-enterprise.vercel.app/",
+import { endpoint } from "constant/endpoint"
+import { FlightList } from "entities/FlightList"
+import createAPIClient from "services/api"
+import { FlightListPage } from "./components/FlightList"
 
 export const metadata: Metadata = {
-  title: "frontend mastery",
+  title: "hafthashtad assignment",
   twitter: {
     card: "summary_large_image",
   },
@@ -20,11 +21,17 @@ export const metadata: Metadata = {
   },
 }
 
-export default function Web() {
+const getFlightList = async () => {
+  const response = await createAPIClient(endpoint).get()
+  return response.flightQueryResult[0]?.flightList || []
+}
+
+export default async function Web() {
+  const flightList: FlightList[] = await getFlightList()
   return (
     <>
       <section className="bg-white dark:bg-gray-900">
-        <Button size="sm">button</Button>
+        <FlightListPage flightList={flightList} />
       </section>
     </>
   )
