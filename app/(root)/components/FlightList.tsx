@@ -3,6 +3,7 @@ import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@r
 import { Icon } from "components/icon/Icon"
 import { Button, Card, CardContent, Separator } from "components/index"
 import { FlightList as FlightListType } from "entities/FlightList"
+import { FlightInfo } from "./FlightInfo"
 
 type FlightListPropsType = {
   flight: FlightListType
@@ -29,20 +30,22 @@ export const FlightList = (props: FlightListPropsType) => {
                 <AccordionTrigger>
                   <Button
                     asChild
-                    fullWidth
                     variant="outline"
-                    className="text rounded-full border-[#065BAA] p-3 py-4 text-[14px] font-medium text-[#065BAA] ring-2 ring-[#065BAA]"
+                    size="lg"
+                    className="text  rounded-full  border-[#065BAA]  text-[14px] font-medium text-[#065BAA] ring-2 ring-[#065BAA]"
                   >
                     <div>
                       <span>مشاهده جزئیات و خرید</span>
-                      <Icon className="text-[#065BAA]" name="ChevronDown" sizes="xs" />
+                      <Icon className="text-[#065BAA]" name="ChevronDown" sizes="sm" />
                     </div>
                   </Button>
                 </AccordionTrigger>
               </div>
             </div>
           </CardContent>
-          <AccordionContent>Yes. It adheres to the WAI-ARIA design pattern.</AccordionContent>
+          <AccordionContent>
+            <FlightInfo />
+          </AccordionContent>
         </AccordionItem>
       </Accordion>
     </Card>

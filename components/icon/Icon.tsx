@@ -7,11 +7,11 @@ import { cn } from "lib/utils"
 const iconVariants = cva("px-2", {
   variants: {
     sizes: {
-      default: "size-10",
-      xs: "w-8 h-8",
-      sm: "w-12 h-12",
-      md: "w-14 h-14",
-      lg: "w-16 h-16",
+      default: "w-8 h-8",
+      xs: "w-6 h-6",
+      sm: "w-10 h-10",
+      md: "w-12 h-12",
+      lg: "w-14 h-14",
     },
     colors: {
       muted: "text-muted-foreground",
