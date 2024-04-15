@@ -1,8 +1,7 @@
 import { Metadata } from "next"
-import { endpoint } from "constant/endpoint"
 import { FlightList } from "entities/FlightList"
-import createAPIClient from "services/api"
-import { FlightListPage } from "./components/FlightList"
+import { getFlightList } from "services/getFlights"
+import { Flights } from "./containers/Flights"
 
 export const metadata: Metadata = {
   title: "hafthashtad assignment",
@@ -21,18 +20,11 @@ export const metadata: Metadata = {
   },
 }
 
-const getFlightList = async () => {
-  const response = await createAPIClient(endpoint).get()
-  return response.flightQueryResult[0]?.flightList || []
-}
-
 export default async function Web() {
   const flightList: FlightList[] = await getFlightList()
   return (
-    <>
-      <section className="bg-white dark:bg-gray-900">
-        <FlightListPage flightList={flightList} />
-      </section>
-    </>
+    <section className="bg-white dark:bg-gray-900">
+      <Flights flightList={flightList} />
+    </section>
   )
 }
