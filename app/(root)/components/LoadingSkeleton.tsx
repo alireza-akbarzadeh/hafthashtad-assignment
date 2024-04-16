@@ -1,5 +1,5 @@
 import React from "react"
-import { Skeleton } from "components"
+import { Skeleton } from "components/Skeleton/Skeleton"
 
 export const LoadingSkeleton = () => {
   return (

@@ -101,3 +101,8 @@ export interface FlightQueryResult {
     flightList: FlightList[]
   }[]
 }
+
+export enum FlightClass {
+  ECONOMY = "ECONOMY",
+  BUSINESS = "BUSINESS",
+}

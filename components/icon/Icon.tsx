@@ -7,7 +7,7 @@ import { cn } from "lib/utils"
 const iconVariants = cva("px-2", {
   variants: {
     sizes: {
-      default: "w-8 h-8",
+      default: "w-9 h-9",
       xs: "w-6 h-6",
       sm: "w-10 h-10",
       md: "w-12 h-12",
@@ -32,13 +32,7 @@ export interface IconProps extends Omit<LucideProps, "ref">, VariantProps<typeof
 const Icon = forwardRef<SVGSVGElement, IconProps>(({ name, colors, className, sizes, ...props }, ref) => {
   const LucideIcon = icons[name]
 
-  return (
-    <LucideIcon
-      ref={ref}
-      className={cn("size-5 rounded-full", iconVariants({ sizes, colors, className }))}
-      {...props}
-    />
-  )
+  return <LucideIcon ref={ref} className={cn("rounded-full", iconVariants({ sizes, colors, className }))} {...props} />
 })
 
 Icon.displayName = "Icon"
