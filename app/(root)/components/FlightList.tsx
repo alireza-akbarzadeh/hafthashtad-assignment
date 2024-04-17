@@ -1,4 +1,4 @@
-import { differenceInDays, differenceInHours } from "date-fns-jalali"
+import { differenceInMinutes } from "date-fns-jalali"
 import { Icon } from "components/icon/Icon"
 import {
   Accordion,
@@ -8,21 +8,27 @@ import {
   Avatar,
   AvatarFallback,
   AvatarImage,
+  Badge,
+  Button,
+  Card,
+  CardContent,
+  Separator,
 } from "components/index"
-import { Badge, Button, Card, CardContent, Separator } from "components/index"
 import { CURRENCY_SYMBOL } from "constant"
 import { FlightClass, FlightList as FlightListType } from "entities/FlightList"
+import { FlightCode, formatTime, imageUrl } from "lib/utils"
 import { FlightInfo } from "./FlightInfo"
 
-type FlightListPropsType = {
+export type FlightListPropsType = {
   flight: FlightListType
   index: number
 }
 
 export const FlightList = (props: FlightListPropsType) => {
   const { flight, index } = props
-  const startData = new Date(flight.departure.date * 1000)
-  const endData = new Date(flight.arrival.date * 1000)
+  const startDate = new Date(flight.departure.date * 1000)
+  const endDate = new Date(flight.arrival.date * 1000)
+  const formattedTime = differenceInMinutes(endDate, startDate)
   return (
     <Card className="card-shadow rounded-lg">
       <Accordion collapsible type="single" className="w-full">
@@ -45,7 +51,8 @@ export const FlightList = (props: FlightListPropsType) => {
                 <div className="flex flex-col  gap-2">
                   <Avatar>
                     {/* FIXME: search again see if you can find the image in server */}
-                    <AvatarImage src="" alt={flight.airline.name} />
+                    <AvatarImage src={imageUrl(flight.airline.name as FlightCode)} alt={flight.airline.name} />
+                    <AvatarImage src={"assets/logos/caspian.png"} alt={flight.airline.name} />
                     <AvatarFallback>{flight.airline.name.charAt(0)}</AvatarFallback>
                   </Avatar>
                   <p className="text-[14px] text-[#121516]">{flight.airline.name}</p>
@@ -61,7 +68,7 @@ export const FlightList = (props: FlightListPropsType) => {
                     <span>{flight.arrival.airport.city.name.farsi}</span>
                   </div>
                 </div>
-                <p className="mr-20 text-[14px] text-[#121516]">{differenceInHours(startData, endData)}</p>
+                <p className="mr-20 text-[14px] font-normal text-[#121516]">{formatTime(formattedTime)}</p>
               </div>
             </div>
             <div className="col-span-2 flex">
@@ -77,7 +84,7 @@ export const FlightList = (props: FlightListPropsType) => {
                     asChild
                     variant="outline"
                     size="sm"
-                    className="text  rounded-full  border-[#065BAA]  text-[14px] font-medium text-[#065BAA] ring-2 ring-[#065BAA]"
+                    className="text  rounded-full  border-0  border-[#065BAA] text-[14px] font-medium text-[#065BAA] ring-2 ring-[#065BAA]"
                   >
                     <div>
                       <span>مشاهده جزئیات و خرید</span>
@@ -89,7 +96,7 @@ export const FlightList = (props: FlightListPropsType) => {
             </div>
           </CardContent>
           <AccordionContent>
-            <FlightInfo />
+            <FlightInfo flight={flight} />
           </AccordionContent>
         </AccordionItem>
       </Accordion>
