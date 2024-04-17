@@ -1,5 +1,5 @@
 import { differenceInMinutes } from "date-fns-jalali"
-import { Icon } from "components/icon/Icon"
+import { Icon } from "components/Icon/Icon"
 import {
   Accordion,
   AccordionContent,
@@ -52,23 +52,26 @@ export const FlightList = (props: FlightListPropsType) => {
                   <Avatar>
                     {/* FIXME: search again see if you can find the image in server */}
                     <AvatarImage src={imageUrl(flight.airline.name as FlightCode)} alt={flight.airline.name} />
-                    <AvatarImage src={"assets/logos/caspian.png"} alt={flight.airline.name} />
                     <AvatarFallback>{flight.airline.name.charAt(0)}</AvatarFallback>
                   </Avatar>
                   <p className="text-[14px] text-[#121516]">{flight.airline.name}</p>
                 </div>
                 <div className="flex items-center  gap-10">
                   <div className="flex flex-col gap-3">
-                    <span className="text-[26px] text-[#121516]">{flight.departure.dateHourString}</span>
+                    <time dateTime={flight.departure.dateHourString} className="text-[26px] text-[#121516]">
+                      {flight.departure.dateHourString}
+                    </time>
                     <span>{flight.departure.airport.city.name.farsi}</span>
                   </div>
                   <Icon name="MoveLeft" className="text-[#696A6B]" sizes="sm" />
                   <div className="flex flex-col gap-1">
-                    <span className="text-[26px] text-[#121516]">{flight.arrival.dateHourString}</span>
+                    <time dateTime={flight.arrival.dateHourString} className="text-[26px] text-[#121516]">
+                      {flight.arrival.dateHourString}
+                    </time>
                     <span>{flight.arrival.airport.city.name.farsi}</span>
                   </div>
                 </div>
-                <p className="mr-20 text-[14px] font-normal text-[#121516]">{formatTime(formattedTime)}</p>
+                <time className="mr-20 text-[14px] font-normal text-[#121516]">{formatTime(formattedTime)}</time>
               </div>
             </div>
             <div className="col-span-2 flex">

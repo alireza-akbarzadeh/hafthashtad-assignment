@@ -1,7 +1,7 @@
 import { cva, type VariantProps } from "class-variance-authority"
 import { icons } from "lucide-react"
 import * as React from "react"
-import { Icon, IconProps } from "components/icon/Icon"
+import { Icon, IconProps } from "components/Icon/Icon"
 import { Label } from "components/Label/Label"
 import { cn } from "lib/utils"
 

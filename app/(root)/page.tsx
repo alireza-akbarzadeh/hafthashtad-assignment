@@ -23,7 +23,7 @@ export const metadata: Metadata = {
 export default async function Web() {
   const flightList: FlightList[] = await getFlightList()
   return (
-    <section className="bg-white dark:bg-gray-900">
+    <section>
       <Flights flightList={flightList} />
     </section>
   )

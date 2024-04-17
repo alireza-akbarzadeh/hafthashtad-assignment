@@ -5,11 +5,7 @@ type LayoutPropsTpye = {
 }
 
 function Layout({ children }: LayoutPropsTpye) {
-  return (
-    <main>
-      <div className="container">{children}</div>
-    </main>
-  )
+  return <main className="container">{children}</main>
 }
 
 export default Layout

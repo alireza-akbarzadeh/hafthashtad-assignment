@@ -1,6 +1,6 @@
 import { differenceInMinutes } from "date-fns-jalali"
 import React from "react"
-import { Icon } from "components/icon/Icon"
+import { Icon } from "components/Icon/Icon"
 import { Avatar, AvatarFallback, AvatarImage, Separator } from "components/index"
 import { FlightClass } from "entities/FlightList"
 import { FlightCode, formatTime, imageUrl } from "lib/utils"

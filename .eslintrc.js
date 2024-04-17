@@ -64,6 +64,10 @@ module.exports = {
         },
       },
     ],
+    // Enable rules provided by jsx-a11y plugin
+    "jsx-a11y/anchor-is-valid": "warn",
+    "jsx-a11y/accessible-emoji": "warn",
+    // Add other rules as needed
   },
 }
 

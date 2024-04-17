@@ -14,8 +14,8 @@ export const FlightInfo = (props: FlightInfoPropsType) => {
       <div className="col-span-8">
         <Tabs defaultValue="details">
           <TabsList className="flex flex-row  border-b">
-            <TabsTrigger value="details">جزییات پرواز</TabsTrigger>
             <TabsTrigger value="rules">قوانین استرداد </TabsTrigger>
+            <TabsTrigger value="details">جزییات پرواز</TabsTrigger>
           </TabsList>
           <TabsContent style={{ direction: "rtl" }} value="details">
             <FlightDetails flight={flight} />
