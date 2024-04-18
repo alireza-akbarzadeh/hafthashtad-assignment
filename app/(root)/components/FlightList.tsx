@@ -33,8 +33,8 @@ export const FlightList = (props: FlightListPropsType): JSX.Element => {
     <Card className="card-shadow w-full rounded-lg">
       <Accordion collapsible type="single" className="w-full">
         <AccordionItem value={`item-${index + 1}`} className="border-none">
-          <CardContent className="grid grid-cols-2 px-5 py-3 lg:grid-cols-12">
-            <div className="col-span-2 lg:col-span-10">
+          <CardContent className="grid grid-cols-2 px-5 py-3 lg:grid-cols-7 xl:grid-cols-12">
+            <div className="col-span-2 lg:col-span-5 xl:col-span-10">
               <div className="flex gap-1">
                 <Charter isCharter={flight.isCharter} />
                 <FlightClass name={flight.flightClass} />
@@ -68,7 +68,7 @@ export const FlightList = (props: FlightListPropsType): JSX.Element => {
                 </time>
               </div>
             </div>
-            <div className="col-span-2  lg:col-span-2 lg:flex">
+            <div className="col-span-2 lg:col-span-2  lg:flex xl:col-span-2">
               <Separator
                 className="ml-5 hidden h-full border-[1px]  border-dashed border-[#BCBEBE]  lg:block"
                 orientation="vertical"
