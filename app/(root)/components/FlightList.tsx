@@ -30,7 +30,7 @@ export const FlightList = (props: FlightListPropsType): JSX.Element => {
   const formattedTime = differenceInMinutes(endDate, startDate)
 
   return (
-    <Card className="card-shadow w-full rounded-lg">
+    <Card data-testid="flight-item" className="card-shadow w-full rounded-lg">
       <Accordion collapsible type="single" className="w-full">
         <AccordionItem value={`item-${index + 1}`} className="border-none">
           <CardContent className="grid grid-cols-2 px-5 py-3 lg:grid-cols-7 xl:grid-cols-12">

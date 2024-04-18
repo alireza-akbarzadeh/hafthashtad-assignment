@@ -13,7 +13,7 @@ export const FlightSearch = (props: FlightSearchPropTypes) => {
   const { handleSeachFlight, isPending, inputRef, searchValue } = props
 
   return (
-    <div className="w-full lg:max-w-[343px]">
+    <div data-testid="search-input" className="w-full lg:max-w-[343px]">
       <Input
         ref={inputRef}
         value={searchValue}
