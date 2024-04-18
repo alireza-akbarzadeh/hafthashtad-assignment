@@ -1,16 +1,17 @@
 import React from "react"
-import { Badge } from "components"
-import { FlightClass as FlightClassEnum } from "entities/FlightList"
+import { Badge } from "components/index"
+import { FlightClassEnum } from "entities/FlightList"
 
 type FlightClassPropType = {
   name: string
 }
 
+const flightClassMap: Record<string, JSX.Element | null> = {
+  [FlightClassEnum.ECONOMY]: <Badge>اکونومی</Badge>,
+  [FlightClassEnum.BUSINESS]: <Badge variant="warning">بیزینس</Badge>,
+}
+
 export const FlightClass = (props: FlightClassPropType): JSX.Element | null => {
   const { name } = props
-  return String(name) === FlightClassEnum.ECONOMY ? (
-    <Badge>اکونومی</Badge>
-  ) : String(name) === FlightClassEnum.BUSINESS ? (
-    <Badge variant="warning">بیزینس</Badge>
-  ) : null
+  return flightClassMap[name] || null
 }

@@ -30,16 +30,22 @@ export const FlightInfo = (props: FlightInfoPropsType) => {
         <Separator orientation="horizontal" className="my-1" />
         <div className="flex justify-between">
           <p>بزرگ سال (۱۲ سال به بالا) </p>
-          <p> ۴۰۰۰۰ ریال</p>
+          <div className="flex items-center gap-1">
+            <span className="-mt-2 text-[15px] font-medium text-[#BD1A8D]"> x ۳</span>
+            <p>
+              <span className="text-base text-[#065BAA]">
+                {flight.fare.adult.toLocaleString()}
+                {CURRENCY_SYMBOL}
+              </span>
+            </p>
+          </div>
         </div>
         <Separator orientation="horizontal" className="my-1" />
         <div className="flex justify-between">
           <p>مجموع قیمت رفت و برگشت</p>
-          {/* totalprops not exist in given data ny provider */}
-          <p>
-            {" "}
-            {parseInt("18000000").toLocaleString()} {CURRENCY_SYMBOL}
-          </p>
+          <span className="text-xl text-[#065BAA]">
+            {(flight.fare.adult * 3).toLocaleString()} {CURRENCY_SYMBOL}
+          </span>
         </div>
         <Button variant="info" fullWidth className="rounded-full">
           انتخاب بلیط و افزودن مسافر

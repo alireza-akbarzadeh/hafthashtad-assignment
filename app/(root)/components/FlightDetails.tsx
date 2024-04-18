@@ -1,8 +1,8 @@
 import { differenceInMinutes } from "date-fns-jalali"
 import { Icon } from "components/Icon/Icon"
 import { Separator } from "components/index"
-import { FlightClass } from "entities/FlightList"
 import { FlightCode, formatTime, imageUrl } from "lib/utils"
+import { FlightClass } from "./FlightClass"
 import { FlightInfoPropsType } from "./FlightInfo"
 import { Logo } from "./Logo"
 
@@ -35,13 +35,7 @@ export const FlightDetails = (props: FlightDetailsPropTypes) => {
         />
         <div className="flex flex-col gap-2">
           <div className="inline-flex gap-2">
-            <span className="text-base font-medium">
-              {String(flight.flightClass) === FlightClass.ECONOMY
-                ? "اکونومی"
-                : String(flight.flightClass) === FlightClass.BUSINESS
-                ? "بیزینس"
-                : null}
-            </span>
+            <FlightClass name={flight.flightClass} />
             <span className="text-base font-medium">{flight.airline.name}</span>
             <span className="text-base font-medium">{flight.airplaneModel}</span>
           </div>
@@ -64,39 +58,39 @@ export const FlightDetails = (props: FlightDetailsPropTypes) => {
           </ul>
         </div>
       </div>
-      <div className="relative ">
+      <div className="relative">
         <Separator
-          className=" absolute h-[80%] border-spacing-y-6 border-[1px] border-dashed border-[#BCBEBE]  after:top-0 after:h-5 after:w-5 after:rounded-full after:bg-slate-400"
+          className="after:content  before:content absolute mt-6 h-[160px] border-[1px] border-dashed border-[#BCBEBE] before:absolute before:bottom-0 before:left-1/2 before:h-4 before:w-4 before:-translate-x-1/2 before:rounded-full before:bg-[#696A6B] after:absolute after:left-1/2 after:h-4 after:w-4 after:-translate-x-1/2 after:rounded-full after:bg-[#696A6B]"
           orientation="vertical"
         />
-        <div className="mr-4 mt-3 flex flex-col gap-5">
-          <div className="space-y-6">
-            <div className="flex items-center gap-2">
-              <p className="text-xl font-medium text-[#065BAA]">
-                <span className="mr-2">{flight.departure.dateHourString}</span>
-                <span className="mr-1">{flight.departure.airport.city.name.farsi}</span>
-              </p>
-              <span className="text-[14px]  font-normal text-[#121516] ">{flight.departure.dateString}</span>
-            </div>
-            <p className="flex gap-2 text-[14px] text-[#696A6B]">
-              <span>{flight.departure.airport.name.farsi}</span>
-              <span>{`(${flight.departure.airport.iata})`}</span>
+      </div>
+      <div className="mr-4 mt-6 flex flex-col gap-5">
+        <div className="space-y-6">
+          <div className="flex items-center gap-2">
+            <p className="text-xl font-medium text-[#065BAA]">
+              <span className="mr-2">{flight.departure.dateHourString}</span>
+              <span className="mr-1">{flight.departure.airport.city.name.farsi}</span>
             </p>
-            <p className="text-[14px] font-normal text-[#696A6B]">{formatTime(formattedTime)}</p>
+            <span className="text-[14px]  font-normal text-[#121516] ">{flight.departure.dateString}</span>
           </div>
-          <div className="space-y-6">
-            <div className="flex items-center gap-2">
-              <p className="text-xl font-medium text-[#065BAA]">
-                <span className="mr-2">{flight.arrival.dateHourString}</span>
-                <span className="mr-1">{flight.arrival.airport.city.name.farsi}</span>
-              </p>
-              <span className="text-[14px]  font-normal text-[#121516] ">{flight.arrival.dateString}</span>
-            </div>
-            <p className="flex gap-2 text-[14px] text-[#696A6B]">
-              <span>{flight.arrival.airport.name.farsi}</span>
-              <span>{`(${flight.arrival.airport.iata})`}</span>
+          <p className="flex gap-2 text-[14px] text-[#696A6B]">
+            <span>{flight.departure.airport.name.farsi}</span>
+            <span>{`(${flight.departure.airport.iata})`}</span>
+          </p>
+          <p className="text-[14px] font-normal text-[#696A6B]">{formatTime(formattedTime)}</p>
+        </div>
+        <div className="space-y-6">
+          <div className="flex items-center gap-2">
+            <p className="text-xl font-medium text-[#065BAA]">
+              <span className="mr-2">{flight.arrival.dateHourString}</span>
+              <span className="mr-1">{flight.arrival.airport.city.name.farsi}</span>
             </p>
+            <span className="text-[14px]  font-normal text-[#121516] ">{flight.arrival.dateString}</span>
           </div>
+          <p className="flex gap-2 text-[14px] text-[#696A6B]">
+            <span>{flight.arrival.airport.name.farsi}</span>
+            <span>{`(${flight.arrival.airport.iata})`}</span>
+          </p>
         </div>
       </div>
       <ul className=" mt-[17.5px] space-y-6">
