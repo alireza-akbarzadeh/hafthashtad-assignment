@@ -102,7 +102,7 @@ export interface FlightQueryResult {
   }[]
 }
 
-export enum FlightClass {
+export enum FlightClassEnum {
   ECONOMY = "ECONOMY",
   BUSINESS = "BUSINESS",
 }

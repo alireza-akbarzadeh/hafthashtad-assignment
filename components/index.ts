@@ -5,7 +5,7 @@ export { Skeleton } from "./Skeleton/Skeleton"
 export { Icon } from "./Icon/Icon"
 export { Separator } from "./Separator/Separator"
 export { Alert, AlertDescription, AlertTitle } from "./Alert/Alert"
-export { Avatar, AvatarFallback, AvatarImage } from "./Avatar/Avatar"
+export { Avatar, AvatarFallback, AvatarImage, type AvatarProps } from "./Avatar/Avatar"
 
 export { Tabs, TabsContent, TabsList, TabsTrigger } from "./Tabs/Tabs"
 export { Card, CardDescription, CardFooter, CardHeader, CardContent, CardTitle } from "./Card/Card"

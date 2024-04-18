@@ -28,12 +28,12 @@ export function formatTime(minutes: number): string {
 export type FlightCode = "ZH" | "ZV" | "NV" | "T3" | "IRU" | "EP"
 
 export const logoUrls: Record<FlightCode, string> = {
-  EP: "assets/logos/iran_air.png",
-  ZH: "assets/logos/caspian.png",
-  ZV: "assets/logos/iran_air.png",
-  T3: "assets/logos/Sky.png",
-  NV: "assets/logos/karun.png",
-  IRU: "assets/logos/iran_air.png",
+  EP: "/logos/iran_air.png",
+  ZH: "/logos/caspian.png",
+  ZV: "/logos/iran_air.png",
+  T3: "/logos/Sky.png",
+  NV: "/logos/karun.png",
+  IRU: "/logos/iran_air.png",
 }
 
 export function imageUrl(code: FlightCode): string {

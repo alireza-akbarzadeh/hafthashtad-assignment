@@ -1,10 +1,10 @@
 import { differenceInMinutes } from "date-fns-jalali"
-import React from "react"
 import { Icon } from "components/Icon/Icon"
-import { Avatar, AvatarFallback, AvatarImage, Separator } from "components/index"
+import { Separator } from "components/index"
 import { FlightClass } from "entities/FlightList"
 import { FlightCode, formatTime, imageUrl } from "lib/utils"
 import { FlightInfoPropsType } from "./FlightInfo"
+import { Logo } from "./Logo"
 
 type FlightDetailsPropTypes = FlightInfoPropsType
 
@@ -28,11 +28,11 @@ export const FlightDetails = (props: FlightDetailsPropTypes) => {
         </div>
       </div>
       <div className="flex items-center gap-2">
-        <Avatar className="m-4">
-          {/* FIXME: search again see if you can find the image in server */}
-          <AvatarImage src={imageUrl(flight.airline.code as FlightCode)} alt={flight.airline.name} />
-          <AvatarFallback>{flight.airline.name.charAt(0)}</AvatarFallback>
-        </Avatar>
+        <Logo
+          src={imageUrl(flight.airline.code as FlightCode)}
+          alt={flight.airline.name}
+          fallBack={flight.airline.name.charAt(0)}
+        />
         <div className="flex flex-col gap-2">
           <div className="inline-flex gap-2">
             <span className="text-base font-medium">
