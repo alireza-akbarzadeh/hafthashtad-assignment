@@ -10,7 +10,7 @@ type FlightNotFoundPropsType = {
 export const FlightNotFound = (props: FlightNotFoundPropsType): JSX.Element => {
   const { handleTryAgain, searchValue } = props
   return (
-    <Card>
+    <Card data-testid="not-found-message">
       <CardHeader>
         <CardTitle>هیچ پروازی پیدا نشد</CardTitle>
         <CardDescription className="pt-2">

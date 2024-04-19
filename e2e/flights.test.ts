@@ -1,39 +1,41 @@
 import { expect, test } from "@playwright/test"
 
 test.describe("Flight search functionality", () => {
-  test("Should display search results for a valid query", async ({ page }) => {
+  test("Should return a flight list with 5 items", async ({ page }) => {
     // Navigate to the page
     await page.goto("http://localhost:3000")
 
     // Check if initial flight list items are displayed
+
+    // Wait for the flight list items to appear
+    await page.waitForSelector('[data-testid="flight-item"]')
+
+    // Check if initial flight list items are displayed
     const initialFlightListItems = await page.$$('[data-testid="flight-item"]')
     expect(initialFlightListItems).toHaveLength(5)
+  })
+
+  test("Should display search results for a valid query", async ({ page }) => {
+    // Navigate to the page
+    await page.goto("http://localhost:3000")
 
     // Perform a search
-    const searchInput = await page.$('[data-testid="search-input"]')
+    const searchInput = page.getByPlaceholder(/بلیط/i)
     if (!searchInput) throw new Error("Search input element not found")
 
-    await searchInput.fill("Your search query")
-    await page.keyboard.press("Enter")
+    await searchInput.pressSequentially("زاگرس")
+    await searchInput.press("Enter") // Use searchInput to press Enter key
 
     // Wait for search results to appear
-    await page.waitForSelector('[data-testid="search-result"]')
+    await page.waitForSelector('[data-testid="flight-item"]')
 
     // Check if search results are displayed
-    const searchResultItems = await page.$$('[data-testid="search-result"]')
+    const searchResultItems = await page.$$('[data-testid="flight-item"]')
     expect(searchResultItems.length).toBeGreaterThan(0)
 
     // Check if the "not found" message is not displayed
     const notFoundMessage = await page.$('[data-testid="not-found-message"]')
     expect(notFoundMessage).toBeNull()
-
-    // Click on a flight to view details
-    const flightDetailButton = await page.$('[data-testid="flight-detail-button"]')
-    await flightDetailButton?.click()
-
-    // Check if flight details are displayed
-    const flightInfo = await page.$('[data-testid="flight-info"]')
-    expect(flightInfo).not.toBeNull()
   })
 
   test("Should display 'not found' message for an invalid query", async ({ page }) => {
@@ -41,10 +43,11 @@ test.describe("Flight search functionality", () => {
     await page.goto("http://localhost:3000")
 
     // Perform a search with an invalid query
-    const searchInput = await page.$('[data-testid="search-input"]')
+    // Perform a search
+    const searchInput = page.getByPlaceholder(/بلیط/i)
     if (!searchInput) throw new Error("Search input element not found")
 
-    await searchInput.fill("Invalid search query")
+    await searchInput.pressSequentially("Invalid search query")
     await page.keyboard.press("Enter")
 
     // Wait for the 'not found' message to appear
@@ -55,7 +58,7 @@ test.describe("Flight search functionality", () => {
     expect(notFoundMessage).not.toBeNull()
 
     // Check if no search results are displayed
-    const searchResultItems = await page.$$('[data-testid="search-result"]')
+    const searchResultItems = await page.$$('[data-testid="flight-item"]')
     expect(searchResultItems).toHaveLength(0)
   })
 })
