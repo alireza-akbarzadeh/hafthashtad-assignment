@@ -3,8 +3,8 @@ import { Card, CardContent } from "components/index"
 import { Skeleton } from "components/Skeleton/Skeleton"
 
 export const FlightSkeleton = (): JSX.Element[] => {
-  return Array.from({ length: 5 }).map((index) => (
-    <Card key={index as number}>
+  return Array.from({ length: 5 }).map((_, index) => (
+    <Card key={index}>
       <CardContent className="grid grid-cols-2 gap-4 lg:grid-cols-12">
         <div className="col-span-2 flex flex-col lg:col-span-10">
           <div className="flex items-center gap-2">
