@@ -1,6 +1,6 @@
 import localFont from "next/font/local"
 import "styles/tailwind.css"
-
+import { Toaster } from "components/Toast/toaster"
 import { cn } from "lib/utils"
 
 const iranSans = localFont({
@@ -40,7 +40,10 @@ export default function RootLayout(props: RootLayoutProptTypes) {
   return (
     <html lang="en" dir="rtl" suppressHydrationWarning>
       <head />
-      <body className={cn("min-h-screen bg-background", iranSans.className)}>{children}</body>
+      <body className={cn("min-h-screen bg-background", iranSans.className)}>
+        {children}
+        <Toaster />
+      </body>
     </html>
   )
 }

@@ -94,8 +94,8 @@ export const FlightDetails = (props: FlightDetailsPropTypes): JSX.Element => {
         </div>
       </div>
       <ul className=" mt-[17.5px] space-y-6">
-        {flight.allowedBaggage.map((allowed) => (
-          <li className="flex items-center  text-[14px] text-[#D8000C]" key={allowed.code}>
+        {flight.allowedBaggage.map((allowed, index) => (
+          <li className="flex items-center  text-[14px] text-[#D8000C]" key={`${allowed.code}${index}`}>
             <Icon name="BaggageClaim" className="text-[#D8000C]" />
             <span className="">{allowed.name.farsi}</span>
           </li>
