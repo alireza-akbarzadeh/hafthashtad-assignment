@@ -10,7 +10,7 @@ export type FlightInfoPropsType = Omit<FlightListPropsType, "index">
 export const FlightInfo = (props: FlightInfoPropsType): JSX.Element => {
   const { flight } = props
   return (
-    <div className="grid grid-cols-12 gap-8">
+    <div data-testid="flight-info" className="grid grid-cols-12 gap-8">
       <div className="col-span-8">
         <Tabs defaultValue="details">
           <TabsList className="flex flex-row  border-b">

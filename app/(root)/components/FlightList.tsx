@@ -82,6 +82,7 @@ export const FlightList = (props: FlightListPropsType): JSX.Element => {
                 </p>
                 <AccordionTrigger headerClassName="hidden lg:block">
                   <Button
+                    data-testid="flight-clicked"
                     asChild
                     variant="outline"
                     size="sm"
