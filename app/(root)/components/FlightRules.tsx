@@ -1,6 +1,6 @@
 import { Alert, AlertDescription, Icon } from "components/index"
 
-export const FlightRules = () => {
+export const FlightRules = (): JSX.Element => {
   return (
     <div className="space-y-4 p-4">
       <Alert className="flex items-center rounded-b-none rounded-t-xl bg-[#EAF1F8] p-[18px]">

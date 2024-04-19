@@ -2,7 +2,7 @@ import React from "react"
 import { Card, CardContent } from "components/index"
 import { Skeleton } from "components/Skeleton/Skeleton"
 
-export const FlightSkeleton = () => {
+export const FlightSkeleton = (): JSX.Element[] => {
   return Array.from({ length: 5 }).map((index) => (
     <Card key={index as number}>
       <CardContent className="grid grid-cols-2 gap-4 lg:grid-cols-12">

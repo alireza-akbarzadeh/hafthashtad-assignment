@@ -1,6 +1,5 @@
-import "styles/tailwind.css"
 import localFont from "next/font/local"
-import { PropsWithChildren } from "react"
+import "styles/tailwind.css"
 
 import { cn } from "lib/utils"
 
@@ -32,8 +31,12 @@ const iranSans = localFont({
     },
   ],
 })
+type RootLayoutProptTypes = {
+  children: React.ReactNode
+}
 
-export default function RootLayout({ children }: PropsWithChildren) {
+export default function RootLayout(props: RootLayoutProptTypes) {
+  const { children } = props
   return (
     <html lang="en" dir="rtl" suppressHydrationWarning>
       <head />

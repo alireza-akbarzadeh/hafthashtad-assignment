@@ -9,7 +9,7 @@ type FlightSearchPropTypes = {
   searchValue: string
 }
 
-export const FlightSearch = (props: FlightSearchPropTypes) => {
+export const FlightSearch = (props: FlightSearchPropTypes): JSX.Element => {
   const { handleSeachFlight, isPending, inputRef, searchValue } = props
 
   return (

@@ -1,6 +1,6 @@
 import Link from "next/link"
 
-export default function NotFound() {
+export default function NotFound(): JSX.Element {
   return (
     <div data-testid="not-found-message" className="flex h-screen flex-col items-center justify-center space-y-4">
       <h2 className="text-4xl font-bold text-red-600">404 Not Found</h2>

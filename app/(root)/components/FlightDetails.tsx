@@ -8,7 +8,7 @@ import { Logo } from "./Logo"
 
 type FlightDetailsPropTypes = FlightInfoPropsType
 
-export const FlightDetails = (props: FlightDetailsPropTypes) => {
+export const FlightDetails = (props: FlightDetailsPropTypes): JSX.Element => {
   const { flight } = props
   const startDate = new Date(flight.departure.date * 1000)
   const endDate = new Date(flight.arrival.date * 1000)

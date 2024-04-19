@@ -7,7 +7,7 @@ import { FlightRules } from "./FlightRules"
 
 export type FlightInfoPropsType = Omit<FlightListPropsType, "index">
 
-export const FlightInfo = (props: FlightInfoPropsType) => {
+export const FlightInfo = (props: FlightInfoPropsType): JSX.Element => {
   const { flight } = props
   return (
     <div className="grid grid-cols-12 gap-8">

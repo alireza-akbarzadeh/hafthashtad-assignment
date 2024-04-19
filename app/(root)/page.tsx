@@ -20,7 +20,7 @@ export const metadata: Metadata = {
   },
 }
 
-export default async function Web() {
+export default async function App(): Promise<JSX.Element> {
   const flightList: FlightList[] = await getFlightList()
   return (
     <section>

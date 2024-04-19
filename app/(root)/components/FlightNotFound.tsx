@@ -7,7 +7,7 @@ type FlightNotFoundPropsType = {
   handleTryAgain: () => void
 }
 
-export const FlightNotFound = (props: FlightNotFoundPropsType) => {
+export const FlightNotFound = (props: FlightNotFoundPropsType): JSX.Element => {
   const { handleTryAgain, searchValue } = props
   return (
     <Card>

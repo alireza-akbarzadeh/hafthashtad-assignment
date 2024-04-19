@@ -1,5 +1,5 @@
-import { LoadingSkeleton } from "./components/FlightSkeleton"
+import { FlightSkeleton } from "./components/FlightSkeleton"
 
 export default function Loading() {
-  return <LoadingSkeleton />
+  return <FlightSkeleton />
 }
