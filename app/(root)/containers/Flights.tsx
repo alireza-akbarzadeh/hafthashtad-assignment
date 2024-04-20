@@ -1,10 +1,9 @@
 "use client"
 
 import { FlightList as FlightListType } from "entities/FlightList"
-import { FlightList } from "../components/FlightList"
-import { FlightNotFound } from "../components/FlightNotFound"
-import { FlightSearch } from "../components/FlightSearch"
-import { FlightSkeleton } from "../components/FlightSkeleton"
+
+import { FlightList, FlightNotFound, FlightSearch, FlightSkeleton } from "../components"
+
 import { useFlightsController } from "../Hooks/useFlightsController"
 
 type FlightListPropsType = {
