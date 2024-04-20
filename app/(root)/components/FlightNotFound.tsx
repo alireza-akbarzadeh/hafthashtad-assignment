@@ -1,6 +1,4 @@
-import React from "react"
-
-import { Button, Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "components/index"
+import { Button, Card, CardDescription, CardFooter, CardHeader, CardTitle } from "components/index"
 
 type FlightNotFoundPropsType = {
   searchValue: string
