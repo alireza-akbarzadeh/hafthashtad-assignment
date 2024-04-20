@@ -18,7 +18,6 @@ export const FlightNotFound = (props: FlightNotFoundPropsType): JSX.Element => {
           مطابقت داشته باشد پیدا کنیم. لطفاً چیز دیگری را امتحان کنید.
         </CardDescription>
       </CardHeader>
-      <CardContent>somthing else</CardContent>
       <CardFooter>
         <Button onClick={handleTryAgain}>دباره امتحان کنید</Button>
       </CardFooter>

@@ -38,7 +38,7 @@ export const useFlightsController = (args: UseFlightsControllerArgsType): UseFli
     }
   }
 
-  const [isPending, debouncedSearchFlights] = useDebounce(handleSearchFlight, 1000) // Debounce search value with a delay of 1000 ms
+  const [isPending, debouncedSearchFlights] = useDebounce(handleSearchFlight, 500) // Debounce search value with a delay of 1000 ms
 
   useEffect(() => {
     debouncedSearchFlights(searchValue)
