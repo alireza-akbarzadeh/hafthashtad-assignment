@@ -2,34 +2,30 @@
 
 ## Table of Contents
 
-  - [🎯 Getting Started](#-getting-started)
-  - [🚀 Deployment](#-deployment)
-  - [📃 Scripts Overview](#-scripts-overview)
-  - [🔗 Coupling Graph](#-coupling-graph)
-  - [🧪 Testing](#-testing)
-    - [Running Tests](#running-tests)
-    - [Acceptance Tests](#acceptance-tests)
-    - [Smoke Testing](#smoke-testing)
-  - [🎨 Styling and Design System](#-styling-and-design-system)
-    - [CVA - A New Approach to Variants](#cva---a-new-approach-to-variants)
-  - [💻 Environment Variables handling](#-environment-variables-handling)
-  - [🎯 project Assignment](#-project-assignment)
-  
+- [🎯 Getting Started](#-getting-started)
+- [🚀 Deployment](#-deployment)
+- [📃 Scripts Overview](#-scripts-overview)
+- [🔗 Coupling Graph](#-coupling-graph)
+- [🧪 Testing](#-testing)
+  - [Running Tests](#running-tests)
+  - [Acceptance Tests](#acceptance-tests)
+  - [Smoke Testing](#smoke-testing)
+- [🎨 Styling and Design System](#-styling-and-design-system)
+  - [CVA - A New Approach to Variants](#cva---a-new-approach-to-variants)
+- [💻 Environment Variables handling](#-environment-variables-handling)
+- [🎯 project Assignment](#-project-assignment)
+
 ## 🎯 Getting Started
 
-# before installation First you should change your node version to  ">=18.17.0".
-
-
+# before installation First you should change your node version to ">=18.17.0".
 
 To get started with this app, follow these steps:
-
 
 1. Fork & clone repository:
 
 ```bash
 git clone https://github.com/<your_username)/hafthashtad-assignment.git
 ```
-
 
 2. Install the dependencies:
 
@@ -53,9 +49,10 @@ pre-commit install -t commit-msg
 ```
 
 ## 🚀 Deployment
-<!-- TODO: provide vercel link -->
- # onClick to deploy button to see the final version off the app on vercel   [![Vercel](https://vercel.com/button)](https://google.com)
 
+<!-- TODO: provide vercel link -->
+
+# onClick to deploy button to see the final version off the app on vercel [![Vercel](https://vercel.com/button)](https://google.com)
 
 ## 📃 Scripts Overview
 
@@ -145,7 +142,7 @@ In this boilerplate, we use Storybook's out-of-the-box support for smoke testing
 
 ## 🎨 Styling and Design System
 
-This app uses Tailwind CSS for styling and CVA for creating a powerful, easy-to-use design system. 
+This app uses Tailwind CSS for styling and CVA for creating a powerful, easy-to-use design system.
 
 ### CVA - A New Approach to Variants
 
@@ -183,14 +180,12 @@ If the required environment variables are not set, you'll get an error message:
   ❌ Invalid environment variables: { SECRET_KEY: [ 'Required' ] }
 ```
 
-
-
-
 ## 🎯 Project Assignment
 
 # Senior Front-End Developer Interview Assignment
 
 ## Objective:
+
 Creating a React project by NextJS 13 and creating a flight ticket list page according to the submitted design.
 
 ## Requirements:
@@ -203,10 +198,12 @@ Creating a React project by NextJS 13 and creating a flight ticket list page acc
   - Implement a search bar and can search on airline companies (airline.name)
 
 ## Deliverables:
+
 1. A GitHub repository containing the source code of the React application.
 2. A README file with clear instructions on how to set up and run the application locally.
 
 ## Evaluation Criteria:
+
 - Code quality and organization.
 - Proper use of React components and state management.
 - Properly show 5 tickets in the viewport and don’t use any library like infinity scroll.
@@ -217,4 +214,5 @@ Creating a React project by NextJS 13 and creating a flight ticket list page acc
 - **PLUS:** Create a Storybook for components.
 
 ## Figma Address:
+
 [Link to Figma](https://www.figma.com/file/YgezRrUNzzWxnbbUVHHk4n/frontend-developer---interview-assignment?type=design&node-id=0%3A1&mode=design&t=gr1LkiNQ75KRDy1J-1)
