@@ -36,16 +36,16 @@ export default function Error(props: ErrorPropsType): JSX.Element {
   return (
     <Card>
       <CardHeader>
-        <CardTitle>We are sorry... something went wrong</CardTitle>
-        <CardDescription>We cannot process your request at this moment.</CardDescription>
+        <CardTitle>متاسفیم... مشکلی پیش آمده است</CardTitle>
+        <CardDescription>در حال حاضر نمی‌توانیم درخواست شما را پردازش کنیم.</CardDescription>
       </CardHeader>
       <CardContent>
         <Alert>
-          <AlertTitle>Error:</AlertTitle>
+          <AlertTitle>خطا:</AlertTitle>
           <AlertDescription>{error.message}</AlertDescription>
         </Alert>
         <CardFooter>
-          <Button onClick={() => reset()}>Try again</Button>
+          <Button onClick={() => reset()}>دوباره امتحان کنید</Button>
         </CardFooter>
       </CardContent>
     </Card>

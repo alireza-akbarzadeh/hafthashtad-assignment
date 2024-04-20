@@ -7,6 +7,5 @@ export const getFlightList = async () => {
     return response.flightQueryResult[0]?.flightList || []
   } catch (error) {
     console.error("Error fetching flight list:", error)
-    throw new Error("Failed to fetch flight list")
   }
 }
