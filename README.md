@@ -50,9 +50,9 @@ pre-commit install -t commit-msg
 
 ## 🚀 Deployment
 
-<!-- TODO: provide vercel link -->
+The final version of this project is available in production. You can view it [here](https://hafthashtad-assignment-f7q4yqrun-alirezadev95s-projects.vercel.app/).
 
-# onClick to deploy button to see the final version off the app on vercel [![Vercel](https://vercel.com/button)](https://google.com)
+## Description
 
 ## 📃 Scripts Overview
 
